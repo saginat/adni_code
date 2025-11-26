@@ -1,0 +1,11 @@
+/var/spool/slurmd/job43178485/slurm_script: line 12: module: command not found
+/var/spool/slurmd/job43178485/slurm_script: line 18: python: command not found
+Open a new terminal window in Mac and Linux or a local terminal in Mobaxterm
+
+Copy and paste the command bellow in new terminal to create a tunnel to the cluster
+
+ssh -J sagi.nathan@bava.cs.huji.ac.il -L :132.65.180.17: sagi.nathan@moriah-gw.cs.huji.ac.il
+
+After creating the tunnel copy and paste the URL that Jupyter Notebook created in a local browser.
+
+[C 17:25:25.025 NotebookApp] Bad config encountered during initialization: The 'port' trait of a NotebookApp instance expected an int, not the str ''.

@@ -1,0 +1,46 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"notebook"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "notebook"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Open a new terminal window in Mac and Linux or a local terminal in Mobaxterm
+
+Copy and paste the command bellow in new terminal to create a tunnel to the cluster
+
+ssh -J sagi.nathan@bava.cs.huji.ac.il -L 20931:132.65.180.17:20931 sagi.nathan@moriah-gw.cs.huji.ac.il
+
+After creating the tunnel copy and paste the URL that Jupyter Notebook created in a local browser.
+
+[I 18:00:33.016 NotebookApp] Serving notebooks from local directory: /sci/nosnap/arieljaffe/sagi.nathan/adni_code
+[I 18:00:33.016 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 18:00:33.016 NotebookApp] http://glacier-07:20931/?token=09a32348d212dd8da97cebab5e5683f448ca02eacc98f086
+[I 18:00:33.016 NotebookApp]  or http://127.0.0.1:20931/?token=09a32348d212dd8da97cebab5e5683f448ca02eacc98f086
+[I 18:00:33.016 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:00:33.028 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///sci/home/sagi.nathan/.local/share/jupyter/runtime/nbserver-3215779-open.html
+    Or copy and paste one of these URLs:
+        http://glacier-07:20931/?token=09a32348d212dd8da97cebab5e5683f448ca02eacc98f086
+     or http://127.0.0.1:20931/?token=09a32348d212dd8da97cebab5e5683f448ca02eacc98f086
+[I 18:01:59.279 NotebookApp] 302 GET /?token=09a32348d212dd8da97cebab5e5683f448ca02eacc98f086 (132.65.180.49) 1.970000ms
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 18:02:10.429 NotebookApp] Kernel started: 98270dfc-6a23-4017-8955-e01c1e8ce682, name: python3
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 18:02:57.190 NotebookApp] Starting buffering for 98270dfc-6a23-4017-8955-e01c1e8ce682:af0f6aa711f145839d37992afc5a99bf
+slurmstepd: error: *** JOB 43178496 ON glacier-07 CANCELLED AT 2025-11-22T21:00:26 DUE TO TIME LIMIT ***

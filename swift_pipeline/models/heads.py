@@ -1,0 +1,64 @@
+import torch
+import torch.nn as nn
+
+
+class ClassificationHead(nn.Module):
+    """Classification head for SwiFT encoder output"""
+
+    def __init__(self, num_classes=2, num_features=288):
+        super().__init__()
+        num_outputs = 1 if num_classes == 2 else num_classes
+        self.norm = nn.LayerNorm(num_features)
+        self.avgpool = nn.AdaptiveAvgPool1d(1)
+        self.head = nn.Linear(num_features, num_outputs)
+
+    def forward(self, x):
+        # x -> (b, C, D, H, W, T)
+        x = x.flatten(start_dim=2).transpose(1, 2)  # B L C
+        x = self.norm(x)  # B L C
+        x = self.avgpool(x.transpose(1, 2))  # B C 1
+        x = torch.flatten(x, 1)
+        x = self.head(x)
+        return x
+
+
+class RegressionHead(nn.Module):
+    """Regression head for SwiFT encoder output"""
+
+    def __init__(self, num_features=288):
+        super().__init__()
+        self.norm = nn.LayerNorm(num_features)
+        self.avgpool = nn.AdaptiveAvgPool1d(1)
+        self.head = nn.Linear(num_features, 1)
+
+    def forward(self, x):
+        # x -> (b, C, D, H, W, T)
+        x = x.flatten(start_dim=2).transpose(1, 2)  # B L C
+        x = self.norm(x)  # B L C
+        x = self.avgpool(x.transpose(1, 2))  # B C 1
+        x = torch.flatten(x, 1)
+        x = self.head(x)
+        return x
+
+
+class ContrastiveHead(nn.Module):
+    """Contrastive learning head for SwiFT pretraining"""
+
+    def __init__(self, num_features=288, embedding_dim=128):
+        super().__init__()
+        self.norm = nn.LayerNorm(num_features)
+        self.avgpool = nn.AdaptiveAvgPool1d(1)
+        self.projection = nn.Sequential(
+            nn.Linear(num_features, num_features),
+            nn.ReLU(),
+            nn.Linear(num_features, embedding_dim),
+        )
+
+    def forward(self, x):
+        # x -> (b, C, D, H, W, T)
+        x = x.flatten(start_dim=2).transpose(1, 2)  # B L C
+        x = self.norm(x)  # B L C
+        x = self.avgpool(x.transpose(1, 2))  # B C 1
+        x = torch.flatten(x, 1)
+        x = self.projection(x)
+        return x

@@ -1,0 +1,38 @@
+/var/spool/slurmd/job43202412/slurm_script: line 12: module: command not found
+Open a new terminal window in Mac and Linux or a local terminal in Mobaxterm
+
+Copy and paste the command bellow in new terminal to create a tunnel to the cluster
+
+ssh -J sagi.nathan@bava.cs.huji.ac.il -L 35507:132.65.180.25:35507 sagi.nathan@moriah-gw.cs.huji.ac.il
+
+After creating the tunnel copy and paste the URL that Jupyter Notebook created in a local browser.
+
+[I 11:45:39.535 NotebookApp] Serving notebooks from local directory: /sci/nosnap/arieljaffe/sagi.nathan/adni_code
+[I 11:45:39.535 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 11:45:39.535 NotebookApp] http://glacier-15:35507/?token=b7e41ee793ad5021565702ab082d0f9f939babf3ae7cc60e
+[I 11:45:39.535 NotebookApp]  or http://127.0.0.1:35507/?token=b7e41ee793ad5021565702ab082d0f9f939babf3ae7cc60e
+[I 11:45:39.535 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:45:39.550 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///sci/home/sagi.nathan/.local/share/jupyter/runtime/nbserver-1716745-open.html
+    Or copy and paste one of these URLs:
+        http://glacier-15:35507/?token=b7e41ee793ad5021565702ab082d0f9f939babf3ae7cc60e
+     or http://127.0.0.1:35507/?token=b7e41ee793ad5021565702ab082d0f9f939babf3ae7cc60e
+[I 11:47:52.014 NotebookApp] 302 GET /?token=b7e41ee793ad5021565702ab082d0f9f939babf3ae7cc60e (132.65.180.49) 2.340000ms
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 11:48:39.715 NotebookApp] Kernel started: ad83aa9f-bc46-4593-a95b-00e3c7a0eeae, name: python3
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 11:48:51.237 NotebookApp] Starting buffering for ad83aa9f-bc46-4593-a95b-00e3c7a0eeae:f4c89c5f47ed4b7486b90ad0672ce348
+[I 11:48:51.259 NotebookApp] Kernel shutdown: ad83aa9f-bc46-4593-a95b-00e3c7a0eeae
+[I 11:48:51.670 NotebookApp] Kernel started: 5952e8dd-a68f-45f0-b2d4-820739edf1d2, name: py39
+[I 11:49:30.185 NotebookApp] Starting buffering for 5952e8dd-a68f-45f0-b2d4-820739edf1d2:f4c89c5f47ed4b7486b90ad0672ce348
+slurmstepd: error: *** JOB 43202412 ON glacier-15 CANCELLED AT 2025-11-26T12:39:15 ***

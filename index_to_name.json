@@ -1,0 +1,4178 @@
+{
+    "0": {
+        "filename": "dswau012_S_4188_20120502_Resting_State_fMRI_79_I301834.nii",
+        "subject_id": "012_S_4188",
+        "date": "02/05/2012",
+        "image_id": "I301834"
+    },
+    "1": {
+        "filename": "dswau012_S_4987_20121102_Resting_State_fMRI_98_I343905.nii",
+        "subject_id": "012_S_4987",
+        "date": "02/11/2012",
+        "image_id": "I343905"
+    },
+    "2": {
+        "filename": "dswau012_S_4128_20130805_Resting_State_fMRI_70_I385092.nii",
+        "subject_id": "012_S_4128",
+        "date": "05/08/2013",
+        "image_id": "I385092"
+    },
+    "3": {
+        "filename": "dswau012_S_4188_20110907_Resting_State_fMRI_88_I255318.nii",
+        "subject_id": "012_S_4188",
+        "date": "07/09/2011",
+        "image_id": "I255318"
+    },
+    "4": {
+        "filename": "dswau012_S_5157_20130919_Resting_State_fMRI_100_I391370.nii",
+        "subject_id": "012_S_5157",
+        "date": "19/09/2013",
+        "image_id": "I391370"
+    },
+    "5": {
+        "filename": "dswau013_S_2324_20110325_Resting_State_fMRI_91_I225058.nii",
+        "subject_id": "013_S_2324",
+        "date": "25/03/2011",
+        "image_id": "I225058"
+    },
+    "6": {
+        "filename": "dswau012_S_4094_20120723_Resting_State_fMRI_84_I318774.nii",
+        "subject_id": "012_S_4094",
+        "date": "23/07/2012",
+        "image_id": "I318774"
+    },
+    "7": {
+        "filename": "dswau012_S_5195_20130614_Resting_State_fMRI_80_I376798.nii",
+        "subject_id": "012_S_5195",
+        "date": "14/06/2013",
+        "image_id": "I376798"
+    },
+    "8": {
+        "filename": "dswau013_S_2389_20110914_Resting_State_fMRI_87_I257106.nii",
+        "subject_id": "013_S_2389",
+        "date": "14/09/2011",
+        "image_id": "I257106"
+    },
+    "9": {
+        "filename": "dswau012_S_4643_20120627_Resting_State_fMRI_73_I313953.nii",
+        "subject_id": "012_S_4643",
+        "date": "27/06/2012",
+        "image_id": "I313953"
+    },
+    "10": {
+        "filename": "dswau012_S_4643_20120411_Resting_State_fMRI_77_I297689.nii",
+        "subject_id": "012_S_4643",
+        "date": "11/04/2012",
+        "image_id": "I297689"
+    },
+    "11": {
+        "filename": "dswau012_S_4012_20120521_Resting_State_fMRI_70_I306576.nii",
+        "subject_id": "012_S_4012",
+        "date": "21/05/2012",
+        "image_id": "I306576"
+    },
+    "12": {
+        "filename": "dswau012_S_4094_20111006_Resting_State_fMRI_86_I260303.nii",
+        "subject_id": "012_S_4094",
+        "date": "06/10/2011",
+        "image_id": "I260303"
+    },
+    "13": {
+        "filename": "dswau012_S_4094_20110707_Resting_State_fMRI_70_I243880.nii",
+        "subject_id": "012_S_4094",
+        "date": "07/07/2011",
+        "image_id": "I243880"
+    },
+    "14": {
+        "filename": "dswau012_S_4188_20131008_Resting_State_fMRI_73_I393850.nii",
+        "subject_id": "012_S_4188",
+        "date": "08/10/2013",
+        "image_id": "I393850"
+    },
+    "15": {
+        "filename": "dswau012_S_4128_20110729_Resting_State_fMRI_80_I248233.nii",
+        "subject_id": "012_S_4128",
+        "date": "29/07/2011",
+        "image_id": "I248233"
+    },
+    "16": {
+        "filename": "dswau012_S_4188_20111213_Resting_State_fMRI_75_I274437.nii",
+        "subject_id": "012_S_4188",
+        "date": "13/12/2011",
+        "image_id": "I274437"
+    },
+    "17": {
+        "filename": "dswau012_S_4128_20111101_Resting_State_fMRI_65_I265533.nii",
+        "subject_id": "012_S_4128",
+        "date": "01/11/2011",
+        "image_id": "I265533"
+    },
+    "18": {
+        "filename": "dswau012_S_5213_20130710_Resting_State_fMRI_70_I381905.nii",
+        "subject_id": "012_S_5213",
+        "date": "10/07/2013",
+        "image_id": "I381905"
+    },
+    "19": {
+        "filename": "dswau013_S_2389_20120215_Resting_State_fMRI_88_I286425.nii",
+        "subject_id": "013_S_2389",
+        "date": "15/02/2012",
+        "image_id": "I286425"
+    },
+    "20": {
+        "filename": "dswau012_S_4012_20111107_Resting_State_fMRI_77_I265869.nii",
+        "subject_id": "012_S_4012",
+        "date": "07/11/2011",
+        "image_id": "I265869"
+    },
+    "21": {
+        "filename": "dswau013_S_2324_20110627_Resting_State_fMRI_91_I242252.nii",
+        "subject_id": "013_S_2324",
+        "date": "27/06/2011",
+        "image_id": "I242252"
+    },
+    "22": {
+        "filename": "dswau012_S_4012_20130516_Resting_State_fMRI_68_I372938.nii",
+        "subject_id": "012_S_4012",
+        "date": "16/05/2013",
+        "image_id": "I372938"
+    },
+    "23": {
+        "filename": "dswau012_S_4643_20121016_Resting_State_fMRI_90_I377213.nii",
+        "subject_id": "012_S_4643",
+        "date": "16/10/2012",
+        "image_id": "I377213"
+    },
+    "24": {
+        "filename": "dswau012_S_4128_20120306_Resting_State_fMRI_73_I290438.nii",
+        "subject_id": "012_S_4128",
+        "date": "06/03/2012",
+        "image_id": "I290438"
+    },
+    "25": {
+        "filename": "dswau013_S_1186_20120216_Resting_State_fMRI_76_I287005.nii",
+        "subject_id": "013_S_1186",
+        "date": "16/02/2012",
+        "image_id": "I287005"
+    },
+    "26": {
+        "filename": "dswau013_S_2389_20121010_Resting_State_fMRI_87_I339828.nii",
+        "subject_id": "013_S_2389",
+        "date": "10/10/2012",
+        "image_id": "I339828"
+    },
+    "27": {
+        "filename": "dswau012_S_4987_20131111_Resting_State_fMRI_100_I398098.nii",
+        "subject_id": "012_S_4987",
+        "date": "11/11/2013",
+        "image_id": "I398098"
+    },
+    "28": {
+        "filename": "dswau012_S_4094_20120125_Resting_State_fMRI_85_I280649.nii",
+        "subject_id": "012_S_4094",
+        "date": "25/01/2012",
+        "image_id": "I280649"
+    },
+    "29": {
+        "filename": "dswau012_S_4026_20130610_Resting_State_fMRI_91_I642409.nii",
+        "subject_id": "012_S_4026",
+        "date": "10/06/2013",
+        "image_id": "I642409"
+    },
+    "30": {
+        "filename": "dswau012_S_4128_20120829_Resting_State_fMRI_77_I336704.nii",
+        "subject_id": "012_S_4128",
+        "date": "29/08/2012",
+        "image_id": "I336704"
+    },
+    "31": {
+        "filename": "dswau012_S_4849_20120724_Resting_State_fMRI_64_I319132.nii",
+        "subject_id": "012_S_4849",
+        "date": "24/07/2012",
+        "image_id": "I319132"
+    },
+    "32": {
+        "filename": "dswau012_S_4545_20120625_Resting_State_fMRI_59_I312870.nii",
+        "subject_id": "012_S_4545",
+        "date": "25/06/2012",
+        "image_id": "I312870"
+    },
+    "33": {
+        "filename": "dswau012_S_4026_20110526_Resting_State_fMRI_75_I238542.nii",
+        "subject_id": "012_S_4026",
+        "date": "26/05/2011",
+        "image_id": "I238542"
+    },
+    "34": {
+        "filename": "dswau013_S_2324_20120417_Resting_State_fMRI_92_I305412.nii",
+        "subject_id": "013_S_2324",
+        "date": "17/04/2012",
+        "image_id": "I305412"
+    },
+    "35": {
+        "filename": "dswau012_S_4094_20130715_Resting_State_fMRI_73_I381846.nii",
+        "subject_id": "012_S_4094",
+        "date": "15/07/2013",
+        "image_id": "I381846"
+    },
+    "36": {
+        "filename": "dswau012_S_4643_20130422_Resting_State_fMRI_68_I368889.nii",
+        "subject_id": "012_S_4643",
+        "date": "22/04/2013",
+        "image_id": "I368889"
+    },
+    "37": {
+        "filename": "dswau013_S_1186_20110223_Resting_State_fMRI_73_I220070.nii",
+        "subject_id": "013_S_1186",
+        "date": "23/02/2011",
+        "image_id": "I220070"
+    },
+    "38": {
+        "filename": "dswau013_S_2389_20110622_Resting_State_fMRI_86_I241661.nii",
+        "subject_id": "013_S_2389",
+        "date": "22/06/2011",
+        "image_id": "I241661"
+    },
+    "39": {
+        "filename": "dswau012_S_5121_20130628_Resting_State_fMRI_80_I379263.nii",
+        "subject_id": "012_S_5121",
+        "date": "28/06/2013",
+        "image_id": "I379263"
+    },
+    "40": {
+        "filename": "dswau012_S_4026_20110830_Resting_State_fMRI_90_I253525.nii",
+        "subject_id": "012_S_4026",
+        "date": "30/08/2011",
+        "image_id": "I253525"
+    },
+    "41": {
+        "filename": "dswau012_S_4026_20111207_Resting_State_fMRI_80_I274420.nii",
+        "subject_id": "012_S_4026",
+        "date": "07/12/2011",
+        "image_id": "I274420"
+    },
+    "42": {
+        "filename": "dswau012_S_4987_20130513_Resting_State_fMRI_91_I372823.nii",
+        "subject_id": "012_S_4987",
+        "date": "13/05/2013",
+        "image_id": "I372823"
+    },
+    "43": {
+        "filename": "dswau013_S_1186_20130129_Resting_State_fMRI_73_I363411.nii",
+        "subject_id": "013_S_1186",
+        "date": "29/01/2013",
+        "image_id": "I363411"
+    },
+    "44": {
+        "filename": "dswau012_S_4545_20130325_Resting_State_fMRI_61_I365243.nii",
+        "subject_id": "012_S_4545",
+        "date": "25/03/2013",
+        "image_id": "I365243"
+    },
+    "45": {
+        "filename": "dswau012_S_5157_20130516_Resting_State_fMRI_116_I372896.nii",
+        "subject_id": "012_S_5157",
+        "date": "16/05/2013",
+        "image_id": "I372896"
+    },
+    "46": {
+        "filename": "dswau013_S_2324_20111006_Resting_State_fMRI_91_I261319.nii",
+        "subject_id": "013_S_2324",
+        "date": "06/10/2011",
+        "image_id": "I261319"
+    },
+    "47": {
+        "filename": "dswau012_S_5121_20130315_Resting_State_fMRI_80_I363549.nii",
+        "subject_id": "012_S_5121",
+        "date": "15/03/2013",
+        "image_id": "I363549"
+    },
+    "48": {
+        "filename": "dswau012_S_4987_20130212_Resting_State_fMRI_102_I361116.nii",
+        "subject_id": "012_S_4987",
+        "date": "12/02/2013",
+        "image_id": "I361116"
+    },
+    "49": {
+        "filename": "dswau002_S_4229_20120410_Resting_State_fMRI_95_I296652.nii",
+        "subject_id": "002_S_4229",
+        "date": "10/04/2012",
+        "image_id": "I296652"
+    },
+    "50": {
+        "filename": "dswau136_S_4956_20121016_Resting_State_fMRI_60_I341976.nii",
+        "subject_id": "136_S_4956",
+        "date": "16/10/2012",
+        "image_id": "I341976"
+    },
+    "51": {
+        "filename": "dswau136_S_4993_20121024_Resting_State_fMRI_60_I342514.nii",
+        "subject_id": "136_S_4993",
+        "date": "24/10/2012",
+        "image_id": "I342514"
+    },
+    "52": {
+        "filename": "dswau031_S_2022_20130725_Resting_State_fMRI_100_I382683.nii",
+        "subject_id": "031_S_2022",
+        "date": "25/07/2013",
+        "image_id": "I382683"
+    },
+    "53": {
+        "filename": "dswau130_S_2373_20111101_Resting_State_fMRI_57_I266223.nii",
+        "subject_id": "130_S_2373",
+        "date": "01/11/2011",
+        "image_id": "I266223"
+    },
+    "54": {
+        "filename": "dswau031_S_2022_20100714_Resting_State_fMRI_98_I184535.nii",
+        "subject_id": "031_S_2022",
+        "date": "14/07/2010",
+        "image_id": "I184535"
+    },
+    "55": {
+        "filename": "dswau130_S_2403_20131011_Resting_State_fMRI_59_I394175.nii",
+        "subject_id": "130_S_2403",
+        "date": "11/10/2013",
+        "image_id": "I394175"
+    },
+    "56": {
+        "filename": "dswau019_S_5242_20130702_Resting_State_fMRI_87_I379089.nii",
+        "subject_id": "019_S_5242",
+        "date": "02/07/2013",
+        "image_id": "I379089"
+    },
+    "57": {
+        "filename": "dswau130_S_2391_20130809_Resting_State_fMRI_73_I385078.nii",
+        "subject_id": "130_S_2391",
+        "date": "09/08/2013",
+        "image_id": "I385078"
+    },
+    "58": {
+        "filename": "dswau031_S_4005_20111006_Resting_State_fMRI_79_I259900.nii",
+        "subject_id": "031_S_4005",
+        "date": "06/10/2011",
+        "image_id": "I259900"
+    },
+    "59": {
+        "filename": "dswau130_S_2391_20120713_Resting_State_fMRI_72_I316276.nii",
+        "subject_id": "130_S_2391",
+        "date": "13/07/2012",
+        "image_id": "I316276"
+    },
+    "60": {
+        "filename": "dswau130_S_4250_20131025_Resting_State_fMRI_92_I395958.nii",
+        "subject_id": "130_S_4250",
+        "date": "25/10/2013",
+        "image_id": "I395958"
+    },
+    "61": {
+        "filename": "dswau031_S_2022_20110215_Resting_State_fMRI_98_I217608.nii",
+        "subject_id": "031_S_2022",
+        "date": "15/02/2011",
+        "image_id": "I217608"
+    },
+    "62": {
+        "filename": "dswau130_S_2391_20110919_Resting_State_fMRI_75_I257011.nii",
+        "subject_id": "130_S_2391",
+        "date": "19/09/2011",
+        "image_id": "I257011"
+    },
+    "63": {
+        "filename": "dswau019_S_5242_20140117_Resting_State_fMRI_84_I405606.nii",
+        "subject_id": "019_S_5242",
+        "date": "17/01/2014",
+        "image_id": "I405606"
+    },
+    "64": {
+        "filename": "dswau130_S_2403_20120126_Resting_State_fMRI_54_I281083.nii",
+        "subject_id": "130_S_2403",
+        "date": "26/01/2012",
+        "image_id": "I281083"
+    },
+    "65": {
+        "filename": "dswau130_S_4250_20120411_Resting_State_fMRI_90_I297561.nii",
+        "subject_id": "130_S_4250",
+        "date": "11/04/2012",
+        "image_id": "I297561"
+    },
+    "66": {
+        "filename": "dswau129_S_4396_20121211_Resting_State_fMRI_51_I350735.nii",
+        "subject_id": "129_S_4396",
+        "date": "11/12/2012",
+        "image_id": "I350735"
+    },
+    "67": {
+        "filename": "dswau031_S_2233_20101215_Resting_State_fMRI_66_I208974.nii",
+        "subject_id": "031_S_2233",
+        "date": "15/12/2010",
+        "image_id": "I208974"
+    },
+    "68": {
+        "filename": "dswau031_S_2233_20130110_Resting_State_fMRI_70_I354598.nii",
+        "subject_id": "031_S_2233",
+        "date": "10/01/2013",
+        "image_id": "I354598"
+    },
+    "69": {
+        "filename": "dswau031_S_2018_20100923_Resting_State_fMRI_58_I193431.nii",
+        "subject_id": "031_S_2018",
+        "date": "23/09/2010",
+        "image_id": "I193431"
+    },
+    "70": {
+        "filename": "dswau130_S_2373_20110502_Resting_State_fMRI_57_I232243.nii",
+        "subject_id": "130_S_2373",
+        "date": "02/05/2011",
+        "image_id": "I232243"
+    },
+    "71": {
+        "filename": "dswau019_S_5019_20131115_Resting_State_fMRI_73_I415205.nii",
+        "subject_id": "019_S_5019",
+        "date": "15/11/2013",
+        "image_id": "I415205"
+    },
+    "72": {
+        "filename": "dswau031_S_2018_20110627_Resting_State_fMRI_57_I242177.nii",
+        "subject_id": "031_S_2018",
+        "date": "27/06/2011",
+        "image_id": "I242177"
+    },
+    "73": {
+        "filename": "dswau031_S_2233_20110309_Resting_State_fMRI_64_I223353.nii",
+        "subject_id": "031_S_2233",
+        "date": "09/03/2011",
+        "image_id": "I223353"
+    },
+    "74": {
+        "filename": "dswau031_S_2022_20110714_Resting_State_fMRI_95_I247662.nii",
+        "subject_id": "031_S_2022",
+        "date": "14/07/2011",
+        "image_id": "I247662"
+    },
+    "75": {
+        "filename": "dswau130_S_4250_20111005_Resting_State_fMRI_91_I259691.nii",
+        "subject_id": "130_S_4250",
+        "date": "05/10/2011",
+        "image_id": "I259691"
+    },
+    "76": {
+        "filename": "dswau031_S_2018_20120613_Resting_State_fMRI_57_I310476.nii",
+        "subject_id": "031_S_2018",
+        "date": "13/06/2012",
+        "image_id": "I310476"
+    },
+    "77": {
+        "filename": "dswau130_S_2391_20110617_Resting_State_fMRI_72_I240902.nii",
+        "subject_id": "130_S_2391",
+        "date": "17/06/2011",
+        "image_id": "I240902"
+    },
+    "78": {
+        "filename": "dswau031_S_2018_20110131_Resting_State_fMRI_58_I215435.nii",
+        "subject_id": "031_S_2018",
+        "date": "31/01/2011",
+        "image_id": "I215435"
+    },
+    "79": {
+        "filename": "dswau130_S_2373_20130514_Resting_State_fMRI_58_I372302.nii",
+        "subject_id": "130_S_2373",
+        "date": "14/05/2013",
+        "image_id": "I372302"
+    },
+    "80": {
+        "filename": "dswau031_S_2018_20100702_Resting_State_fMRI_57_I181505.nii",
+        "subject_id": "031_S_2018",
+        "date": "02/07/2010",
+        "image_id": "I181505"
+    },
+    "81": {
+        "filename": "dswau031_S_4005_20110701_Resting_State_fMRI_84_I243115.nii",
+        "subject_id": "031_S_4005",
+        "date": "01/07/2011",
+        "image_id": "I243115"
+    },
+    "82": {
+        "filename": "dswau031_S_2022_20120719_Resting_State_fMRI_99_I316979.nii",
+        "subject_id": "031_S_2022",
+        "date": "19/07/2012",
+        "image_id": "I316979"
+    },
+    "83": {
+        "filename": "dswau031_S_2018_20130703_Resting_State_fMRI_57_I379344.nii",
+        "subject_id": "031_S_2018",
+        "date": "03/07/2013",
+        "image_id": "I379344"
+    },
+    "84": {
+        "filename": "dswau130_S_2403_20110930_Resting_State_fMRI_55_I259332.nii",
+        "subject_id": "130_S_2403",
+        "date": "30/09/2011",
+        "image_id": "I259332"
+    },
+    "85": {
+        "filename": "dswau031_S_2017_20100707_Resting_State_fMRI_67_I183884.nii",
+        "subject_id": "031_S_2017",
+        "date": "07/07/2010",
+        "image_id": "I183884"
+    },
+    "86": {
+        "filename": "dswau031_S_4005_20110404_Resting_State_fMRI_85_I226190.nii",
+        "subject_id": "031_S_4005",
+        "date": "04/04/2011",
+        "image_id": "I226190"
+    },
+    "87": {
+        "filename": "dswau130_S_2373_20120508_Resting_State_fMRI_60_I302589.nii",
+        "subject_id": "130_S_2373",
+        "date": "08/05/2012",
+        "image_id": "I302589"
+    },
+    "88": {
+        "filename": "dswau130_S_4250_20120123_Resting_State_fMRI_91_I280800.nii",
+        "subject_id": "130_S_4250",
+        "date": "23/01/2012",
+        "image_id": "I280800"
+    },
+    "89": {
+        "filename": "dswau019_S_5019_20130514_Resting_State_fMRI_74_I372471.nii",
+        "subject_id": "019_S_5019",
+        "date": "14/05/2013",
+        "image_id": "I372471"
+    },
+    "90": {
+        "filename": "dswau130_S_2402_20110916_Resting_State_fMRI_79_I256753.nii",
+        "subject_id": "130_S_2402",
+        "date": "16/09/2011",
+        "image_id": "I256753"
+    },
+    "91": {
+        "filename": "dswau019_S_5180_20130522_Resting_State_fMRI_132_I373540.nii",
+        "subject_id": "019_S_5180",
+        "date": "22/05/2013",
+        "image_id": "I373540"
+    },
+    "92": {
+        "filename": "dswau129_S_4422_20120720_Resting_State_fMRI_64_I317121.nii",
+        "subject_id": "129_S_4422",
+        "date": "20/07/2012",
+        "image_id": "I317121"
+    },
+    "93": {
+        "filename": "dswau129_S_4422_20130107_Resting_State_fMRI_64_I353800.nii",
+        "subject_id": "129_S_4422",
+        "date": "07/01/2013",
+        "image_id": "I353800"
+    },
+    "94": {
+        "filename": "dswau031_S_2233_20110613_Resting_State_fMRI_66_I240043.nii",
+        "subject_id": "031_S_2233",
+        "date": "13/06/2011",
+        "image_id": "I240043"
+    },
+    "95": {
+        "filename": "dswau130_S_2373_20110801_Resting_State_fMRI_57_I247983.nii",
+        "subject_id": "130_S_2373",
+        "date": "01/08/2011",
+        "image_id": "I247983"
+    },
+    "96": {
+        "filename": "dswau031_S_2022_20101012_Resting_State_fMRI_98_I196434.nii",
+        "subject_id": "031_S_2022",
+        "date": "12/10/2010",
+        "image_id": "I196434"
+    },
+    "97": {
+        "filename": "dswau130_S_2403_20120416_Resting_State_fMRI_56_I297616.nii",
+        "subject_id": "130_S_2403",
+        "date": "16/04/2012",
+        "image_id": "I297616"
+    },
+    "98": {
+        "filename": "dswau031_S_2233_20120105_Resting_State_fMRI_67_I275532.nii",
+        "subject_id": "031_S_2233",
+        "date": "05/01/2012",
+        "image_id": "I275532"
+    },
+    "99": {
+        "filename": "dswau130_S_4415_20120517_Resting_State_fMRI_78_I305261.nii",
+        "subject_id": "130_S_4415",
+        "date": "17/05/2012",
+        "image_id": "I305261"
+    },
+    "100": {
+        "filename": "dswau130_S_4343_20121207_Resting_State_fMRI_72_I350046.nii",
+        "subject_id": "130_S_4343",
+        "date": "07/12/2012",
+        "image_id": "I350046"
+    },
+    "101": {
+        "filename": "dswau130_S_4542_20120905_Resting_State_fMRI_56_I331236.nii",
+        "subject_id": "130_S_4542",
+        "date": "05/09/2012",
+        "image_id": "I331236"
+    },
+    "102": {
+        "filename": "dswau130_S_4343_20131114_Resting_State_fMRI_70_I398573.nii",
+        "subject_id": "130_S_4343",
+        "date": "14/11/2013",
+        "image_id": "I398573"
+    },
+    "103": {
+        "filename": "dswau130_S_4542_20120601_Resting_State_fMRI_56_I308121.nii",
+        "subject_id": "130_S_4542",
+        "date": "01/06/2012",
+        "image_id": "I308121"
+    },
+    "104": {
+        "filename": "dswau130_S_4417_20130206_Resting_State_fMRI_111_I358798.nii",
+        "subject_id": "130_S_4417",
+        "date": "06/02/2013",
+        "image_id": "I358798"
+    },
+    "105": {
+        "filename": "dswau130_S_4417_20140213_Resting_State_fMRI_112_I414279.nii",
+        "subject_id": "130_S_4417",
+        "date": "13/02/2014",
+        "image_id": "I414279"
+    },
+    "106": {
+        "filename": "dswau130_S_4415_20120801_Resting_State_fMRI_76_I374165.nii",
+        "subject_id": "130_S_4415",
+        "date": "01/08/2012",
+        "image_id": "I374165"
+    },
+    "107": {
+        "filename": "dswau130_S_4417_20120727_Resting_State_fMRI_100_I319553.nii",
+        "subject_id": "130_S_4417",
+        "date": "27/07/2012",
+        "image_id": "I319553"
+    },
+    "108": {
+        "filename": "dswau130_S_4605_20120326_Resting_State_fMRI_73_I293629.nii",
+        "subject_id": "130_S_4605",
+        "date": "26/03/2012",
+        "image_id": "I293629"
+    },
+    "109": {
+        "filename": "dswau130_S_4294_20120515_Resting_State_fMRI_82_I304596.nii",
+        "subject_id": "130_S_4294",
+        "date": "15/05/2012",
+        "image_id": "I304596"
+    },
+    "110": {
+        "filename": "dswau130_S_4250_20121024_Resting_State_fMRI_94_I342030.nii",
+        "subject_id": "130_S_4250",
+        "date": "24/10/2012",
+        "image_id": "I342030"
+    },
+    "111": {
+        "filename": "dswau130_S_4468_20120201_Resting_State_fMRI_48_I282297.nii",
+        "subject_id": "130_S_4468",
+        "date": "01/02/2012",
+        "image_id": "I282297"
+    },
+    "112": {
+        "filename": "dswau130_S_4352_20121114_Resting_State_fMRI_88_I346744.nii",
+        "subject_id": "130_S_4352",
+        "date": "14/11/2012",
+        "image_id": "I346744"
+    },
+    "113": {
+        "filename": "dswau130_S_4415_20130218_Resting_State_fMRI_75_I374144.nii",
+        "subject_id": "130_S_4415",
+        "date": "18/02/2013",
+        "image_id": "I374144"
+    },
+    "114": {
+        "filename": "dswau130_S_4343_20120306_Resting_State_fMRI_72_I289588.nii",
+        "subject_id": "130_S_4343",
+        "date": "06/03/2012",
+        "image_id": "I289588"
+    },
+    "115": {
+        "filename": "dswau130_S_4294_20111121_Resting_State_fMRI_82_I267894.nii",
+        "subject_id": "130_S_4294",
+        "date": "21/11/2011",
+        "image_id": "I267894"
+    },
+    "116": {
+        "filename": "dswau130_S_4468_20130222_Resting_State_fMRI_48_I361486.nii",
+        "subject_id": "130_S_4468",
+        "date": "22/02/2013",
+        "image_id": "I361486"
+    },
+    "117": {
+        "filename": "dswau130_S_4417_20120420_Resting_State_fMRI_100_I301103.nii",
+        "subject_id": "130_S_4417",
+        "date": "20/04/2012",
+        "image_id": "I301103"
+    },
+    "118": {
+        "filename": "dswau130_S_4405_20120113_Resting_State_fMRI_90_I279103.nii",
+        "subject_id": "130_S_4405",
+        "date": "13/01/2012",
+        "image_id": "I279103"
+    },
+    "119": {
+        "filename": "dswau130_S_4352_20131204_Resting_State_fMRI_94_I399995.nii",
+        "subject_id": "130_S_4352",
+        "date": "04/12/2013",
+        "image_id": "I399995"
+    },
+    "120": {
+        "filename": "dswau130_S_4605_20120628_Resting_State_fMRI_77_I313410.nii",
+        "subject_id": "130_S_4605",
+        "date": "28/06/2012",
+        "image_id": "I313410"
+    },
+    "121": {
+        "filename": "dswau130_S_4343_20111109_Resting_State_fMRI_72_I266208.nii",
+        "subject_id": "130_S_4343",
+        "date": "09/11/2011",
+        "image_id": "I266208"
+    },
+    "122": {
+        "filename": "dswau130_S_4405_20140207_Resting_State_fMRI_88_I412933.nii",
+        "subject_id": "130_S_4405",
+        "date": "07/02/2014",
+        "image_id": "I412933"
+    },
+    "123": {
+        "filename": "dswau130_S_4641_20120404_Resting_State_fMRI_72_I295969.nii",
+        "subject_id": "130_S_4641",
+        "date": "04/04/2012",
+        "image_id": "I295969"
+    },
+    "124": {
+        "filename": "dswau130_S_4468_20120510_Resting_State_fMRI_47_I303032.nii",
+        "subject_id": "130_S_4468",
+        "date": "10/05/2012",
+        "image_id": "I303032"
+    },
+    "125": {
+        "filename": "dswau130_S_4352_20120215_Resting_State_fMRI_90_I285316.nii",
+        "subject_id": "130_S_4352",
+        "date": "15/02/2012",
+        "image_id": "I285316"
+    },
+    "126": {
+        "filename": "dswau130_S_4352_20120508_Resting_State_fMRI_85_I302615.nii",
+        "subject_id": "130_S_4352",
+        "date": "08/05/2012",
+        "image_id": "I302615"
+    },
+    "127": {
+        "filename": "dswau130_S_4605_20130327_Resting_State_fMRI_81_I364929.nii",
+        "subject_id": "130_S_4605",
+        "date": "27/03/2013",
+        "image_id": "I364929"
+    },
+    "128": {
+        "filename": "dswau130_S_4415_20140123_Resting_State_fMRI_75_I407059.nii",
+        "subject_id": "130_S_4415",
+        "date": "23/01/2014",
+        "image_id": "I407059"
+    },
+    "129": {
+        "filename": "dswau130_S_4405_20120716_Resting_State_fMRI_86_I374201.nii",
+        "subject_id": "130_S_4405",
+        "date": "16/07/2012",
+        "image_id": "I374201"
+    },
+    "130": {
+        "filename": "dswau130_S_4352_20111115_Resting_State_fMRI_86_I267713.nii",
+        "subject_id": "130_S_4352",
+        "date": "15/11/2011",
+        "image_id": "I267713"
+    },
+    "131": {
+        "filename": "dswau130_S_4641_20120711_Resting_State_fMRI_67_I316009.nii",
+        "subject_id": "130_S_4641",
+        "date": "11/07/2012",
+        "image_id": "I316009"
+    },
+    "132": {
+        "filename": "dswau130_S_4294_20131115_Resting_State_fMRI_83_I398599.nii",
+        "subject_id": "130_S_4294",
+        "date": "15/11/2013",
+        "image_id": "I398599"
+    },
+    "133": {
+        "filename": "dswau130_S_4415_20120113_Resting_State_fMRI_76_I278493.nii",
+        "subject_id": "130_S_4415",
+        "date": "13/01/2012",
+        "image_id": "I278493"
+    },
+    "134": {
+        "filename": "dswau130_S_4294_20121127_Resting_State_fMRI_80_I348045.nii",
+        "subject_id": "130_S_4294",
+        "date": "27/11/2012",
+        "image_id": "I348045"
+    },
+    "135": {
+        "filename": "dswau130_S_4589_20120319_Resting_State_fMRI_45_I291229.nii",
+        "subject_id": "130_S_4589",
+        "date": "19/03/2012",
+        "image_id": "I291229"
+    },
+    "136": {
+        "filename": "dswau130_S_4405_20130213_Resting_State_fMRI_88_I358935.nii",
+        "subject_id": "130_S_4405",
+        "date": "13/02/2013",
+        "image_id": "I358935"
+    },
+    "137": {
+        "filename": "dswau130_S_2403_20121018_Resting_State_fMRI_61_I341127.nii",
+        "subject_id": "130_S_2403",
+        "date": "18/10/2012",
+        "image_id": "I341127"
+    },
+    "138": {
+        "filename": "dswau130_S_4405_20120416_Resting_State_fMRI_87_I297702.nii",
+        "subject_id": "130_S_4405",
+        "date": "16/04/2012",
+        "image_id": "I297702"
+    },
+    "139": {
+        "filename": "dswau130_S_4343_20120611_Resting_State_fMRI_72_I310240.nii",
+        "subject_id": "130_S_4343",
+        "date": "11/06/2012",
+        "image_id": "I310240"
+    },
+    "140": {
+        "filename": "dswau130_S_4468_20120813_Resting_State_fMRI_50_I323821.nii",
+        "subject_id": "130_S_4468",
+        "date": "13/08/2012",
+        "image_id": "I323821"
+    },
+    "141": {
+        "filename": "dswau130_S_4589_20120813_Resting_State_fMRI_43_I323796.nii",
+        "subject_id": "130_S_4589",
+        "date": "13/08/2012",
+        "image_id": "I323796"
+    },
+    "142": {
+        "filename": "dswau130_S_4417_20120118_Resting_State_fMRI_113_I279181.nii",
+        "subject_id": "130_S_4417",
+        "date": "18/01/2012",
+        "image_id": "I279181"
+    },
+    "143": {
+        "filename": "dswau130_S_4542_20120302_Resting_State_fMRI_57_I287650.nii",
+        "subject_id": "130_S_4542",
+        "date": "02/03/2012",
+        "image_id": "I287650"
+    },
+    "144": {
+        "filename": "dswau130_S_4605_20121019_Resting_State_fMRI_81_I341317.nii",
+        "subject_id": "130_S_4605",
+        "date": "19/10/2012",
+        "image_id": "I341317"
+    },
+    "145": {
+        "filename": "dswau130_S_4641_20121010_Resting_State_fMRI_67_I342048.nii",
+        "subject_id": "130_S_4641",
+        "date": "10/10/2012",
+        "image_id": "I342048"
+    },
+    "146": {
+        "filename": "dswau130_S_4294_20120229_Resting_State_fMRI_77_I287082.nii",
+        "subject_id": "130_S_4294",
+        "date": "29/02/2012",
+        "image_id": "I287082"
+    },
+    "147": {
+        "filename": "dswau130_S_4542_20130306_Resting_State_fMRI_58_I362399.nii",
+        "subject_id": "130_S_4542",
+        "date": "06/03/2013",
+        "image_id": "I362399"
+    },
+    "148": {
+        "filename": "dswau006_S_4357_20111128_Resting_State_fMRI_55_I268917.nii",
+        "subject_id": "006_S_4357",
+        "date": "28/11/2011",
+        "image_id": "I268917"
+    },
+    "149": {
+        "filename": "dswau018_S_2133_20120124_Resting_State_fMRI_75_I280337.nii",
+        "subject_id": "018_S_2133",
+        "date": "24/01/2012",
+        "image_id": "I280337"
+    },
+    "150": {
+        "filename": "dswau006_S_4150_20110808_Resting_State_fMRI_88_I249407.nii",
+        "subject_id": "006_S_4150",
+        "date": "08/08/2011",
+        "image_id": "I249407"
+    },
+    "151": {
+        "filename": "dswau018_S_2133_20110802_Resting_State_fMRI_60_I252603.nii",
+        "subject_id": "018_S_2133",
+        "date": "02/08/2011",
+        "image_id": "I252603"
+    },
+    "152": {
+        "filename": "dswau006_S_4150_20120312_Resting_State_fMRI_89_I289846.nii",
+        "subject_id": "006_S_4150",
+        "date": "12/03/2012",
+        "image_id": "I289846"
+    },
+    "153": {
+        "filename": "dswau018_S_2138_20101104_Resting_State_fMRI_80_I202425.nii",
+        "subject_id": "018_S_2138",
+        "date": "04/11/2010",
+        "image_id": "I202425"
+    },
+    "154": {
+        "filename": "dswau018_S_2155_20101202_Resting_State_fMRI_51_I207341.nii",
+        "subject_id": "018_S_2155",
+        "date": "02/12/2010",
+        "image_id": "I207341"
+    },
+    "155": {
+        "filename": "dswau018_S_2155_20110701_Resting_State_fMRI_48_I243008.nii",
+        "subject_id": "018_S_2155",
+        "date": "01/07/2011",
+        "image_id": "I243008"
+    },
+    "156": {
+        "filename": "dswau018_S_2133_20101025_Resting_State_fMRI_77_I199197.nii",
+        "subject_id": "018_S_2133",
+        "date": "25/10/2010",
+        "image_id": "I199197"
+    },
+    "157": {
+        "filename": "dswau002_S_5256_20140219_Resting_State_fMRI_86_I414939.nii",
+        "subject_id": "002_S_5256",
+        "date": "19/02/2014",
+        "image_id": "I414939"
+    },
+    "158": {
+        "filename": "dswau006_S_4153_20111104_Resting_State_fMRI_70_I264987.nii",
+        "subject_id": "006_S_4153",
+        "date": "04/11/2011",
+        "image_id": "I264987"
+    },
+    "159": {
+        "filename": "dswau002_S_5018_20130516_Resting_State_fMRI_82_I372812.nii",
+        "subject_id": "002_S_5018",
+        "date": "16/05/2013",
+        "image_id": "I372812"
+    },
+    "160": {
+        "filename": "dswau006_S_4192_20110927_Resting_State_fMRI_80_I258600.nii",
+        "subject_id": "006_S_4192",
+        "date": "27/09/2011",
+        "image_id": "I258600"
+    },
+    "161": {
+        "filename": "dswau002_S_5018_20130211_Resting_State_fMRI_75_I358614.nii",
+        "subject_id": "002_S_5018",
+        "date": "11/02/2013",
+        "image_id": "I358614"
+    },
+    "162": {
+        "filename": "dswau006_S_4153_20130916_Resting_State_fMRI_72_I390346.nii",
+        "subject_id": "006_S_4153",
+        "date": "16/09/2013",
+        "image_id": "I390346"
+    },
+    "163": {
+        "filename": "dswau006_S_4357_20120619_Resting_State_fMRI_97_I311257.nii",
+        "subject_id": "006_S_4357",
+        "date": "19/06/2012",
+        "image_id": "I311257"
+    },
+    "164": {
+        "filename": "dswau018_S_2155_20121213_Resting_State_fMRI_50_I351336.nii",
+        "subject_id": "018_S_2155",
+        "date": "13/12/2012",
+        "image_id": "I351336"
+    },
+    "165": {
+        "filename": "dswau006_S_4192_20131003_Resting_State_fMRI_80_I393209.nii",
+        "subject_id": "006_S_4192",
+        "date": "03/10/2013",
+        "image_id": "I393209"
+    },
+    "166": {
+        "filename": "dswau006_S_4150_20111107_Resting_State_fMRI_89_I265125.nii",
+        "subject_id": "006_S_4150",
+        "date": "07/11/2011",
+        "image_id": "I265125"
+    },
+    "167": {
+        "filename": "dswau018_S_2138_20110407_Resting_State_fMRI_50_I226625.nii",
+        "subject_id": "018_S_2138",
+        "date": "07/04/2011",
+        "image_id": "I226625"
+    },
+    "168": {
+        "filename": "dswau006_S_4346_20120524_Resting_State_fMRI_79_I306280.nii",
+        "subject_id": "006_S_4346",
+        "date": "24/05/2012",
+        "image_id": "I306280"
+    },
+    "169": {
+        "filename": "dswau006_S_4153_20110803_Resting_State_fMRI_70_I248516.nii",
+        "subject_id": "006_S_4153",
+        "date": "03/08/2011",
+        "image_id": "I248516"
+    },
+    "170": {
+        "filename": "dswau006_S_4363_20111116_Resting_State_fMRI_97_I269253.nii",
+        "subject_id": "006_S_4363",
+        "date": "16/11/2011",
+        "image_id": "I269253"
+    },
+    "171": {
+        "filename": "dswau002_S_5230_20130627_Resting_State_fMRI_53_I378490.nii",
+        "subject_id": "002_S_5230",
+        "date": "27/06/2013",
+        "image_id": "I378490"
+    },
+    "172": {
+        "filename": "dswau018_S_2138_20110908_Resting_State_fMRI_74_I255135.nii",
+        "subject_id": "018_S_2138",
+        "date": "08/09/2011",
+        "image_id": "I255135"
+    },
+    "173": {
+        "filename": "dswau006_S_4192_20121015_Resting_State_fMRI_74_I340021.nii",
+        "subject_id": "006_S_4192",
+        "date": "15/10/2012",
+        "image_id": "I340021"
+    },
+    "174": {
+        "filename": "dswau006_S_4363_20120223_Resting_State_fMRI_97_I286375.nii",
+        "subject_id": "006_S_4363",
+        "date": "23/02/2012",
+        "image_id": "I286375"
+    },
+    "175": {
+        "filename": "dswau006_S_4150_20120921_Resting_State_fMRI_88_I336216.nii",
+        "subject_id": "006_S_4150",
+        "date": "21/09/2012",
+        "image_id": "I336216"
+    },
+    "176": {
+        "filename": "dswau006_S_4153_20120327_Resting_State_fMRI_69_I293809.nii",
+        "subject_id": "006_S_4153",
+        "date": "27/03/2012",
+        "image_id": "I293809"
+    },
+    "177": {
+        "filename": "dswau018_S_2155_20110302_Resting_State_fMRI_50_I222174.nii",
+        "subject_id": "018_S_2155",
+        "date": "02/03/2011",
+        "image_id": "I222174"
+    },
+    "178": {
+        "filename": "dswau006_S_4346_20111110_Resting_State_fMRI_35_I266131.nii",
+        "subject_id": "006_S_4346",
+        "date": "10/11/2011",
+        "image_id": "I266131"
+    },
+    "179": {
+        "filename": "dswau006_S_4192_20120507_Resting_State_fMRI_72_I302039.nii",
+        "subject_id": "006_S_4192",
+        "date": "07/05/2012",
+        "image_id": "I302039"
+    },
+    "180": {
+        "filename": "dswau006_S_4192_20111215_Resting_State_fMRI_80_I272407.nii",
+        "subject_id": "006_S_4192",
+        "date": "15/12/2011",
+        "image_id": "I272407"
+    },
+    "181": {
+        "filename": "dswau006_S_4357_20140122_Resting_State_fMRI_58_I405706.nii",
+        "subject_id": "006_S_4357",
+        "date": "22/01/2014",
+        "image_id": "I405706"
+    },
+    "182": {
+        "filename": "dswau002_S_5230_20140124_Resting_State_fMRI_55_I407829.nii",
+        "subject_id": "002_S_5230",
+        "date": "24/01/2014",
+        "image_id": "I407829"
+    },
+    "183": {
+        "filename": "dswau006_S_4150_20130910_Resting_State_fMRI_95_I389367.nii",
+        "subject_id": "006_S_4150",
+        "date": "10/09/2013",
+        "image_id": "I389367"
+    },
+    "184": {
+        "filename": "dswau006_S_0731_20131025_Resting_State_fMRI_70_I395980.nii",
+        "subject_id": "006_S_0731",
+        "date": "25/10/2013",
+        "image_id": "I395980"
+    },
+    "185": {
+        "filename": "dswau002_S_5178_20130516_Resting_State_fMRI_77_I372853.nii",
+        "subject_id": "002_S_5178",
+        "date": "16/05/2013",
+        "image_id": "I372853"
+    },
+    "186": {
+        "filename": "dswau006_S_4346_20121127_Resting_State_fMRI_74_I348075.nii",
+        "subject_id": "006_S_4346",
+        "date": "27/11/2012",
+        "image_id": "I348075"
+    },
+    "187": {
+        "filename": "dswau018_S_2133_20131218_Resting_State_fMRI_80_I402257.nii",
+        "subject_id": "018_S_2133",
+        "date": "18/12/2013",
+        "image_id": "I402257"
+    },
+    "188": {
+        "filename": "dswau013_S_5171_20130530_Resting_State_fMRI_63_I374972.nii",
+        "subject_id": "013_S_5171",
+        "date": "30/05/2013",
+        "image_id": "I374972"
+    },
+    "189": {
+        "filename": "dswau006_S_4153_20120918_Resting_State_fMRI_71_I335306.nii",
+        "subject_id": "006_S_4153",
+        "date": "18/09/2012",
+        "image_id": "I335306"
+    },
+    "190": {
+        "filename": "dswau018_S_2133_20121218_Resting_State_fMRI_80_I352437.nii",
+        "subject_id": "018_S_2133",
+        "date": "18/12/2012",
+        "image_id": "I352437"
+    },
+    "191": {
+        "filename": "dswau006_S_4357_20121204_Resting_State_fMRI_61_I349326.nii",
+        "subject_id": "006_S_4357",
+        "date": "04/12/2012",
+        "image_id": "I349326"
+    },
+    "192": {
+        "filename": "dswau002_S_5256_20130715_Resting_State_fMRI_82_I380899.nii",
+        "subject_id": "002_S_5256",
+        "date": "15/07/2013",
+        "image_id": "I380899"
+    },
+    "193": {
+        "filename": "dswau006_S_4357_20120224_Resting_State_fMRI_58_I286461.nii",
+        "subject_id": "006_S_4357",
+        "date": "24/02/2012",
+        "image_id": "I286461"
+    },
+    "194": {
+        "filename": "dswau018_S_2133_20110321_Resting_State_fMRI_71_I224635.nii",
+        "subject_id": "018_S_2133",
+        "date": "21/03/2011",
+        "image_id": "I224635"
+    },
+    "195": {
+        "filename": "dswau006_S_4346_20120210_Resting_State_fMRI_77_I283853.nii",
+        "subject_id": "006_S_4346",
+        "date": "10/02/2012",
+        "image_id": "I283853"
+    },
+    "196": {
+        "filename": "dswau018_S_2155_20111222_Resting_State_fMRI_48_I274112.nii",
+        "subject_id": "018_S_2155",
+        "date": "22/12/2011",
+        "image_id": "I274112"
+    },
+    "197": {
+        "filename": "dswau002_S_4225_20120412_Resting_State_fMRI_80_I297353.nii",
+        "subject_id": "002_S_4225",
+        "date": "12/04/2012",
+        "image_id": "I297353"
+    },
+    "198": {
+        "filename": "dswau002_S_4213_20111205_Resting_State_fMRI_73_I273218.nii",
+        "subject_id": "002_S_4213",
+        "date": "05/12/2011",
+        "image_id": "I273218"
+    },
+    "199": {
+        "filename": "dswau002_S_4225_20111226_Resting_State_fMRI_95_I274579.nii",
+        "subject_id": "002_S_4225",
+        "date": "26/12/2011",
+        "image_id": "I274579"
+    },
+    "200": {
+        "filename": "dswau002_S_2073_20101206_Resting_State_fMRI_73_I207666.nii",
+        "subject_id": "002_S_2073",
+        "date": "06/12/2010",
+        "image_id": "I207666"
+    },
+    "201": {
+        "filename": "dswau002_S_1261_20130227_Resting_State_fMRI_57_I361612.nii",
+        "subject_id": "002_S_1261",
+        "date": "27/02/2013",
+        "image_id": "I361612"
+    },
+    "202": {
+        "filename": "dswau002_S_2043_20110916_Resting_State_fMRI_91_I256635.nii",
+        "subject_id": "002_S_2043",
+        "date": "16/09/2011",
+        "image_id": "I256635"
+    },
+    "203": {
+        "filename": "dswau002_S_4225_20110921_Resting_State_fMRI_91_I257271.nii",
+        "subject_id": "002_S_4225",
+        "date": "21/09/2011",
+        "image_id": "I257271"
+    },
+    "204": {
+        "filename": "dswau002_S_2073_20110922_Resting_State_fMRI_91_I257487.nii",
+        "subject_id": "002_S_2073",
+        "date": "22/09/2011",
+        "image_id": "I257487"
+    },
+    "205": {
+        "filename": "dswau002_S_1280_20110504_Resting_State_fMRI_91_I233437.nii",
+        "subject_id": "002_S_1280",
+        "date": "04/05/2011",
+        "image_id": "I233437"
+    },
+    "206": {
+        "filename": "dswau002_S_1268_20110413_Resting_State_fMRI_90_I227595.nii",
+        "subject_id": "002_S_1268",
+        "date": "13/04/2011",
+        "image_id": "I227595"
+    },
+    "207": {
+        "filename": "dswau002_S_1268_20120322_Resting_State_fMRI_90_I292427.nii",
+        "subject_id": "002_S_1268",
+        "date": "22/03/2012",
+        "image_id": "I292427"
+    },
+    "208": {
+        "filename": "dswau002_S_4171_20120229_Resting_State_fMRI_90_I287274.nii",
+        "subject_id": "002_S_4171",
+        "date": "29/02/2012",
+        "image_id": "I287274"
+    },
+    "209": {
+        "filename": "dswau002_S_4229_20110921_Resting_State_fMRI_91_I257477.nii",
+        "subject_id": "002_S_4229",
+        "date": "21/09/2011",
+        "image_id": "I257477"
+    },
+    "210": {
+        "filename": "dswau002_S_4237_20110926_Resting_State_fMRI_77_I258448.nii",
+        "subject_id": "002_S_4237",
+        "date": "26/09/2011",
+        "image_id": "I258448"
+    },
+    "211": {
+        "filename": "dswau002_S_4225_20131017_Resting_State_fMRI_98_I395105.nii",
+        "subject_id": "002_S_4225",
+        "date": "17/10/2013",
+        "image_id": "I395105"
+    },
+    "212": {
+        "filename": "dswau002_S_4219_20121003_Resting_State_fMRI_59_I338109.nii",
+        "subject_id": "002_S_4219",
+        "date": "03/10/2012",
+        "image_id": "I338109"
+    },
+    "213": {
+        "filename": "dswau002_S_1155_20111222_Resting_State_fMRI_66_I274147.nii",
+        "subject_id": "002_S_1155",
+        "date": "22/12/2011",
+        "image_id": "I274147"
+    },
+    "214": {
+        "filename": "dswau002_S_2010_20110122_Resting_State_fMRI_100_I213885.nii",
+        "subject_id": "002_S_2010",
+        "date": "22/01/2011",
+        "image_id": "I213885"
+    },
+    "215": {
+        "filename": "dswau002_S_2043_20101208_Resting_State_fMRI_91_I207955.nii",
+        "subject_id": "002_S_2043",
+        "date": "08/12/2010",
+        "image_id": "I207955"
+    },
+    "216": {
+        "filename": "dswau002_S_2010_20120711_Resting_State_fMRI_105_I316041.nii",
+        "subject_id": "002_S_2010",
+        "date": "11/07/2012",
+        "image_id": "I316041"
+    },
+    "217": {
+        "filename": "dswau002_S_1280_20120301_Resting_State_fMRI_91_I287493.nii",
+        "subject_id": "002_S_1280",
+        "date": "01/03/2012",
+        "image_id": "I287493"
+    },
+    "218": {
+        "filename": "dswau002_S_4229_20111221_Resting_State_fMRI_87_I274134.nii",
+        "subject_id": "002_S_4229",
+        "date": "21/12/2011",
+        "image_id": "I274134"
+    },
+    "219": {
+        "filename": "dswau002_S_4171_20111117_Resting_State_fMRI_64_I267490.nii",
+        "subject_id": "002_S_4171",
+        "date": "17/11/2011",
+        "image_id": "I267490"
+    },
+    "220": {
+        "filename": "dswau002_S_4171_20110808_Resting_State_fMRI_70_I249536.nii",
+        "subject_id": "002_S_4171",
+        "date": "08/08/2011",
+        "image_id": "I249536"
+    },
+    "221": {
+        "filename": "dswau002_S_2073_20131001_Resting_State_fMRI_77_I393007.nii",
+        "subject_id": "002_S_2073",
+        "date": "01/10/2013",
+        "image_id": "I393007"
+    },
+    "222": {
+        "filename": "dswau002_S_4229_20131016_Resting_State_fMRI_95_I394820.nii",
+        "subject_id": "002_S_4229",
+        "date": "16/10/2013",
+        "image_id": "I394820"
+    },
+    "223": {
+        "filename": "dswau002_S_4213_20120919_Resting_State_fMRI_82_I335999.nii",
+        "subject_id": "002_S_4213",
+        "date": "19/09/2012",
+        "image_id": "I335999"
+    },
+    "224": {
+        "filename": "dswau002_S_2073_20100907_Resting_State_fMRI_74_I192250.nii",
+        "subject_id": "002_S_2073",
+        "date": "07/09/2010",
+        "image_id": "I192250"
+    },
+    "225": {
+        "filename": "dswau002_S_1280_20130226_Resting_State_fMRI_85_I361431.nii",
+        "subject_id": "002_S_1280",
+        "date": "26/02/2013",
+        "image_id": "I361431"
+    },
+    "226": {
+        "filename": "dswau002_S_2073_20120911_Resting_State_fMRI_100_I332881.nii",
+        "subject_id": "002_S_2073",
+        "date": "11/09/2012",
+        "image_id": "I332881"
+    },
+    "227": {
+        "filename": "dswau002_S_1155_20140109_Resting_State_fMRI_68_I404373.nii",
+        "subject_id": "002_S_1155",
+        "date": "09/01/2014",
+        "image_id": "I404373"
+    },
+    "228": {
+        "filename": "dswau002_S_2010_20100624_Resting_State_fMRI_109_I180734.nii",
+        "subject_id": "002_S_2010",
+        "date": "24/06/2010",
+        "image_id": "I180734"
+    },
+    "229": {
+        "filename": "dswau002_S_2010_20101022_Resting_State_fMRI_100_I199148.nii",
+        "subject_id": "002_S_2010",
+        "date": "22/10/2010",
+        "image_id": "I199148"
+    },
+    "230": {
+        "filename": "dswau002_S_2073_20110309_Resting_State_fMRI_74_I223330.nii",
+        "subject_id": "002_S_2073",
+        "date": "09/03/2011",
+        "image_id": "I223330"
+    },
+    "231": {
+        "filename": "dswau002_S_1155_20121220_Resting_State_fMRI_62_I352947.nii",
+        "subject_id": "002_S_1155",
+        "date": "20/12/2012",
+        "image_id": "I352947"
+    },
+    "232": {
+        "filename": "dswau002_S_4219_20110914_Resting_State_fMRI_58_I256148.nii",
+        "subject_id": "002_S_4219",
+        "date": "14/09/2011",
+        "image_id": "I256148"
+    },
+    "233": {
+        "filename": "dswau002_S_2010_20110707_Resting_State_fMRI_100_I243875.nii",
+        "subject_id": "002_S_2010",
+        "date": "07/07/2011",
+        "image_id": "I243875"
+    },
+    "234": {
+        "filename": "dswau002_S_1261_20120223_Resting_State_fMRI_57_I286519.nii",
+        "subject_id": "002_S_1261",
+        "date": "23/02/2012",
+        "image_id": "I286519"
+    },
+    "235": {
+        "filename": "dswau002_S_2043_20100831_Resting_State_fMRI_100_I191820.nii",
+        "subject_id": "002_S_2043",
+        "date": "31/08/2010",
+        "image_id": "I191820"
+    },
+    "236": {
+        "filename": "dswau002_S_4219_20111215_Resting_State_fMRI_62_I273181.nii",
+        "subject_id": "002_S_4219",
+        "date": "15/12/2011",
+        "image_id": "I273181"
+    },
+    "237": {
+        "filename": "dswau002_S_0729_20130816_Resting_State_fMRI_77_I385942.nii",
+        "subject_id": "002_S_0729",
+        "date": "16/08/2013",
+        "image_id": "I385942"
+    },
+    "238": {
+        "filename": "dswau002_S_4213_20110902_Resting_State_fMRI_80_I254581.nii",
+        "subject_id": "002_S_4213",
+        "date": "02/09/2011",
+        "image_id": "I254581"
+    },
+    "239": {
+        "filename": "dswau002_S_4213_20120316_Resting_State_fMRI_100_I290923.nii",
+        "subject_id": "002_S_4213",
+        "date": "16/03/2012",
+        "image_id": "I290923"
+    },
+    "240": {
+        "filename": "dswau002_S_2010_20130718_Resting_State_fMRI_100_I381524.nii",
+        "subject_id": "002_S_2010",
+        "date": "18/07/2013",
+        "image_id": "I381524"
+    },
+    "241": {
+        "filename": "dswau002_S_4219_20120323_Resting_State_fMRI_58_I293284.nii",
+        "subject_id": "002_S_4219",
+        "date": "23/03/2012",
+        "image_id": "I293284"
+    },
+    "242": {
+        "filename": "dswau002_S_1261_20110314_Resting_State_fMRI_60_I223896.nii",
+        "subject_id": "002_S_1261",
+        "date": "14/03/2011",
+        "image_id": "I223896"
+    },
+    "243": {
+        "filename": "dswau002_S_4225_20121011_Resting_State_fMRI_95_I340048.nii",
+        "subject_id": "002_S_4225",
+        "date": "11/10/2012",
+        "image_id": "I340048"
+    },
+    "244": {
+        "filename": "dswau002_S_4213_20130917_Resting_State_fMRI_75_I391150.nii",
+        "subject_id": "002_S_4213",
+        "date": "17/09/2013",
+        "image_id": "I391150"
+    },
+    "245": {
+        "filename": "dswau002_S_4229_20120918_Resting_State_fMRI_97_I335317.nii",
+        "subject_id": "002_S_4229",
+        "date": "18/09/2012",
+        "image_id": "I335317"
+    },
+    "246": {
+        "filename": "dswau002_S_4654_20120405_Resting_State_fMRI_75_I296366.nii",
+        "subject_id": "002_S_4654",
+        "date": "05/04/2012",
+        "image_id": "I296366"
+    },
+    "247": {
+        "filename": "dswau002_S_5230_20130923_Resting_State_fMRI_53_I391667.nii",
+        "subject_id": "002_S_5230",
+        "date": "23/09/2013",
+        "image_id": "I391667"
+    },
+    "248": {
+        "filename": "dswau002_S_5178_20130806_Resting_State_fMRI_80_I384734.nii",
+        "subject_id": "002_S_5178",
+        "date": "06/08/2013",
+        "image_id": "I384734"
+    },
+    "249": {
+        "filename": "dswau002_S_4746_20120911_Resting_State_fMRI_75_I333755.nii",
+        "subject_id": "002_S_4746",
+        "date": "11/09/2012",
+        "image_id": "I333755"
+    },
+    "250": {
+        "filename": "dswau002_S_4654_20130416_Resting_State_fMRI_80_I367496.nii",
+        "subject_id": "002_S_4654",
+        "date": "16/04/2013",
+        "image_id": "I367496"
+    },
+    "251": {
+        "filename": "dswau002_S_4799_20120910_Resting_State_fMRI_73_I332859.nii",
+        "subject_id": "002_S_4799",
+        "date": "10/09/2012",
+        "image_id": "I332859"
+    },
+    "252": {
+        "filename": "dswau002_S_4262_20111005_Resting_State_fMRI_85_I259654.nii",
+        "subject_id": "002_S_4262",
+        "date": "05/10/2011",
+        "image_id": "I259654"
+    },
+    "253": {
+        "filename": "dswau002_S_4654_20121023_Resting_State_fMRI_75_I341806.nii",
+        "subject_id": "002_S_4654",
+        "date": "23/10/2012",
+        "image_id": "I341806"
+    },
+    "254": {
+        "filename": "dswau002_S_4799_20120621_Resting_State_fMRI_71_I311921.nii",
+        "subject_id": "002_S_4799",
+        "date": "21/06/2012",
+        "image_id": "I311921"
+    },
+    "255": {
+        "filename": "dswau002_S_4270_20120110_Resting_State_fMRI_56_I277135.nii",
+        "subject_id": "002_S_4270",
+        "date": "10/01/2012",
+        "image_id": "I277135"
+    },
+    "256": {
+        "filename": "dswau002_S_5018_20131118_Resting_State_fMRI_83_I398684.nii",
+        "subject_id": "002_S_5018",
+        "date": "18/11/2013",
+        "image_id": "I398684"
+    },
+    "257": {
+        "filename": "dswau002_S_4746_20121211_Resting_State_fMRI_59_I352349.nii",
+        "subject_id": "002_S_4746",
+        "date": "11/12/2012",
+        "image_id": "I352349"
+    },
+    "258": {
+        "filename": "dswau002_S_4237_20121101_Resting_State_fMRI_75_I346233.nii",
+        "subject_id": "002_S_4237",
+        "date": "01/11/2012",
+        "image_id": "I346233"
+    },
+    "259": {
+        "filename": "dswau002_S_4746_20130603_Resting_State_fMRI_55_I375097.nii",
+        "subject_id": "002_S_4746",
+        "date": "03/06/2013",
+        "image_id": "I375097"
+    },
+    "260": {
+        "filename": "dswau002_S_4270_20111011_Resting_State_fMRI_80_I260580.nii",
+        "subject_id": "002_S_4270",
+        "date": "11/10/2011",
+        "image_id": "I260580"
+    },
+    "261": {
+        "filename": "dswau002_S_4521_20120904_Resting_State_fMRI_80_I330179.nii",
+        "subject_id": "002_S_4521",
+        "date": "04/09/2012",
+        "image_id": "I330179"
+    },
+    "262": {
+        "filename": "dswau002_S_4270_20120504_Resting_State_fMRI_55_I301757.nii",
+        "subject_id": "002_S_4270",
+        "date": "04/05/2012",
+        "image_id": "I301757"
+    },
+    "263": {
+        "filename": "dswau002_S_4799_20130702_Resting_State_fMRI_75_I379008.nii",
+        "subject_id": "002_S_4799",
+        "date": "02/07/2013",
+        "image_id": "I379008"
+    },
+    "264": {
+        "filename": "dswau002_S_4262_20120102_Resting_State_fMRI_75_I274825.nii",
+        "subject_id": "002_S_4262",
+        "date": "02/01/2012",
+        "image_id": "I274825"
+    },
+    "265": {
+        "filename": "dswau002_S_4521_20120217_Resting_State_fMRI_73_I285812.nii",
+        "subject_id": "002_S_4521",
+        "date": "17/02/2012",
+        "image_id": "I285812"
+    },
+    "266": {
+        "filename": "dswau002_S_4237_20120503_Resting_State_fMRI_91_I301767.nii",
+        "subject_id": "002_S_4237",
+        "date": "03/05/2012",
+        "image_id": "I301767"
+    },
+    "267": {
+        "filename": "dswau002_S_4447_20140214_Resting_State_fMRI_80_I414381.nii",
+        "subject_id": "002_S_4447",
+        "date": "14/02/2014",
+        "image_id": "I414381"
+    },
+    "268": {
+        "filename": "dswau002_S_4799_20130110_Resting_State_fMRI_75_I354814.nii",
+        "subject_id": "002_S_4799",
+        "date": "10/01/2013",
+        "image_id": "I354814"
+    },
+    "269": {
+        "filename": "dswau002_S_4473_20140227_Resting_State_fMRI_75_I417987.nii",
+        "subject_id": "002_S_4473",
+        "date": "27/02/2014",
+        "image_id": "I417987"
+    },
+    "270": {
+        "filename": "dswau002_S_4270_20121114_Resting_State_fMRI_80_I346801.nii",
+        "subject_id": "002_S_4270",
+        "date": "14/11/2012",
+        "image_id": "I346801"
+    },
+    "271": {
+        "filename": "dswau002_S_4447_20120423_Resting_State_fMRI_70_I300245.nii",
+        "subject_id": "002_S_4447",
+        "date": "23/04/2012",
+        "image_id": "I300245"
+    },
+    "272": {
+        "filename": "dswau002_S_4251_20120417_Resting_State_fMRI_80_I298203.nii",
+        "subject_id": "002_S_4251",
+        "date": "17/04/2012",
+        "image_id": "I298203"
+    },
+    "273": {
+        "filename": "dswau002_S_4447_20130130_Resting_State_fMRI_80_I361436.nii",
+        "subject_id": "002_S_4447",
+        "date": "30/01/2013",
+        "image_id": "I361436"
+    },
+    "274": {
+        "filename": "dswau002_S_4251_20111219_Resting_State_fMRI_73_I273556.nii",
+        "subject_id": "002_S_4251",
+        "date": "19/12/2011",
+        "image_id": "I273556"
+    },
+    "275": {
+        "filename": "dswau002_S_4473_20120210_Resting_State_fMRI_77_I283879.nii",
+        "subject_id": "002_S_4473",
+        "date": "10/02/2012",
+        "image_id": "I283879"
+    },
+    "276": {
+        "filename": "dswau002_S_4262_20120419_Resting_State_fMRI_75_I299159.nii",
+        "subject_id": "002_S_4262",
+        "date": "19/04/2012",
+        "image_id": "I299159"
+    },
+    "277": {
+        "filename": "dswau002_S_4447_20120814_Resting_State_fMRI_75_I323843.nii",
+        "subject_id": "002_S_4447",
+        "date": "14/08/2012",
+        "image_id": "I323843"
+    },
+    "278": {
+        "filename": "dswau002_S_4262_20121025_Resting_State_fMRI_85_I346113.nii",
+        "subject_id": "002_S_4262",
+        "date": "25/10/2012",
+        "image_id": "I346113"
+    },
+    "279": {
+        "filename": "dswau002_S_4447_20120117_Resting_State_fMRI_70_I278818.nii",
+        "subject_id": "002_S_4447",
+        "date": "17/01/2012",
+        "image_id": "I278818"
+    },
+    "280": {
+        "filename": "dswau002_S_4473_20120517_Resting_State_fMRI_75_I305240.nii",
+        "subject_id": "002_S_4473",
+        "date": "17/05/2012",
+        "image_id": "I305240"
+    },
+    "281": {
+        "filename": "dswau002_S_4521_20130315_Resting_State_fMRI_73_I363568.nii",
+        "subject_id": "002_S_4521",
+        "date": "15/03/2013",
+        "image_id": "I363568"
+    },
+    "282": {
+        "filename": "dswau002_S_4264_20111005_Resting_State_fMRI_52_I259806.nii",
+        "subject_id": "002_S_4264",
+        "date": "05/10/2011",
+        "image_id": "I259806"
+    },
+    "283": {
+        "filename": "dswau002_S_4262_20131106_Resting_State_fMRI_64_I397604.nii",
+        "subject_id": "002_S_4262",
+        "date": "06/11/2013",
+        "image_id": "I397604"
+    },
+    "284": {
+        "filename": "dswau002_S_4237_20131021_Resting_State_fMRI_68_I395573.nii",
+        "subject_id": "002_S_4237",
+        "date": "21/10/2013",
+        "image_id": "I395573"
+    },
+    "285": {
+        "filename": "dswau002_S_4521_20120524_Resting_State_fMRI_80_I306320.nii",
+        "subject_id": "002_S_4521",
+        "date": "24/05/2012",
+        "image_id": "I306320"
+    },
+    "286": {
+        "filename": "dswau002_S_4270_20131114_Resting_State_fMRI_55_I398533.nii",
+        "subject_id": "002_S_4270",
+        "date": "14/11/2013",
+        "image_id": "I398533"
+    },
+    "287": {
+        "filename": "dswau002_S_4237_20120118_Resting_State_fMRI_64_I279226.nii",
+        "subject_id": "002_S_4237",
+        "date": "18/01/2012",
+        "image_id": "I279226"
+    },
+    "288": {
+        "filename": "dswau002_S_4746_20120529_Resting_State_fMRI_58_I306889.nii",
+        "subject_id": "002_S_4746",
+        "date": "29/05/2012",
+        "image_id": "I306889"
+    },
+    "289": {
+        "filename": "dswau002_S_5018_20121108_Resting_State_fMRI_82_I346237.nii",
+        "subject_id": "002_S_5018",
+        "date": "08/11/2012",
+        "image_id": "I346237"
+    },
+    "290": {
+        "filename": "dswau002_S_4473_20120823_Resting_State_fMRI_77_I326318.nii",
+        "subject_id": "002_S_4473",
+        "date": "23/08/2012",
+        "image_id": "I326318"
+    },
+    "291": {
+        "filename": "dswau002_S_4251_20110926_Resting_State_fMRI_75_I258528.nii",
+        "subject_id": "002_S_4251",
+        "date": "26/09/2011",
+        "image_id": "I258528"
+    },
+    "292": {
+        "filename": "dswau002_S_4473_20130205_Resting_State_fMRI_77_I358424.nii",
+        "subject_id": "002_S_4473",
+        "date": "05/02/2013",
+        "image_id": "I358424"
+    },
+    "293": {
+        "filename": "dswau002_S_4654_20120627_Resting_State_fMRI_73_I313307.nii",
+        "subject_id": "002_S_4654",
+        "date": "27/06/2012",
+        "image_id": "I313307"
+    },
+    "294": {
+        "filename": "dswau002_S_5178_20131205_Resting_State_fMRI_79_I400330.nii",
+        "subject_id": "002_S_5178",
+        "date": "05/12/2013",
+        "image_id": "I400330"
+    },
+    "295": {
+        "filename": "dswau130_S_4984_20130927_Resting_State_fMRI_55_I392395.nii",
+        "subject_id": "130_S_4984",
+        "date": "27/09/2013",
+        "image_id": "I392395"
+    },
+    "296": {
+        "filename": "dswau130_S_4817_20130122_Resting_State_fMRI_107_I355856.nii",
+        "subject_id": "130_S_4817",
+        "date": "22/01/2013",
+        "image_id": "I355856"
+    },
+    "297": {
+        "filename": "dswau130_S_5231_20130716_Resting_State_fMRI_63_I381307.nii",
+        "subject_id": "130_S_5231",
+        "date": "16/07/2013",
+        "image_id": "I381307"
+    },
+    "298": {
+        "filename": "dswau130_S_4982_20131025_Resting_State_fMRI_77_I395989.nii",
+        "subject_id": "130_S_4982",
+        "date": "25/10/2013",
+        "image_id": "I395989"
+    },
+    "299": {
+        "filename": "dswau130_S_5006_20121114_Resting_State_fMRI_77_I348491.nii",
+        "subject_id": "130_S_5006",
+        "date": "14/11/2012",
+        "image_id": "I348491"
+    },
+    "300": {
+        "filename": "dswau130_S_4730_20130612_Resting_State_fMRI_59_I376259.nii",
+        "subject_id": "130_S_4730",
+        "date": "12/06/2013",
+        "image_id": "I376259"
+    },
+    "301": {
+        "filename": "dswau130_S_4971_20121017_Resting_State_fMRI_68_I342326.nii",
+        "subject_id": "130_S_4971",
+        "date": "17/10/2012",
+        "image_id": "I342326"
+    },
+    "302": {
+        "filename": "dswau130_S_4883_20121205_Resting_State_fMRI_86_I349748.nii",
+        "subject_id": "130_S_4883",
+        "date": "05/12/2012",
+        "image_id": "I349748"
+    },
+    "303": {
+        "filename": "dswau130_S_4660_20130502_Resting_State_fMRI_64_I369943.nii",
+        "subject_id": "130_S_4660",
+        "date": "02/05/2013",
+        "image_id": "I369943"
+    },
+    "304": {
+        "filename": "dswau130_S_5142_20130419_Resting_State_fMRI_59_I368288.nii",
+        "subject_id": "130_S_5142",
+        "date": "19/04/2013",
+        "image_id": "I368288"
+    },
+    "305": {
+        "filename": "dswau130_S_4925_20121219_Resting_State_fMRI_121_I352312.nii",
+        "subject_id": "130_S_4925",
+        "date": "19/12/2012",
+        "image_id": "I352312"
+    },
+    "306": {
+        "filename": "dswau130_S_4660_20121017_Resting_State_fMRI_64_I342223.nii",
+        "subject_id": "130_S_4660",
+        "date": "17/10/2012",
+        "image_id": "I342223"
+    },
+    "307": {
+        "filename": "dswau130_S_4971_20130503_Resting_State_fMRI_71_I370085.nii",
+        "subject_id": "130_S_4971",
+        "date": "03/05/2013",
+        "image_id": "I370085"
+    },
+    "308": {
+        "filename": "dswau130_S_4730_20120917_Resting_State_fMRI_67_I335235.nii",
+        "subject_id": "130_S_4730",
+        "date": "17/09/2012",
+        "image_id": "I335235"
+    },
+    "309": {
+        "filename": "dswau130_S_4984_20130104_Resting_State_fMRI_54_I353265.nii",
+        "subject_id": "130_S_4984",
+        "date": "04/01/2013",
+        "image_id": "I353265"
+    },
+    "310": {
+        "filename": "dswau130_S_4925_20120926_Resting_State_fMRI_118_I337131.nii",
+        "subject_id": "130_S_4925",
+        "date": "26/09/2012",
+        "image_id": "I337131"
+    },
+    "311": {
+        "filename": "dswau130_S_5006_20130215_Resting_State_fMRI_77_I360702.nii",
+        "subject_id": "130_S_5006",
+        "date": "15/02/2013",
+        "image_id": "I360702"
+    },
+    "312": {
+        "filename": "dswau130_S_4925_20131014_Resting_State_fMRI_125_I394511.nii",
+        "subject_id": "130_S_4925",
+        "date": "14/10/2013",
+        "image_id": "I394511"
+    },
+    "313": {
+        "filename": "dswau130_S_5059_20130809_Resting_State_fMRI_142_I385034.nii",
+        "subject_id": "130_S_5059",
+        "date": "09/08/2013",
+        "image_id": "I385034"
+    },
+    "314": {
+        "filename": "dswau130_S_4817_20130726_Resting_State_fMRI_100_I495757.nii",
+        "subject_id": "130_S_4817",
+        "date": "26/07/2013",
+        "image_id": "I495757"
+    },
+    "315": {
+        "filename": "dswau130_S_4883_20131001_Resting_State_fMRI_84_I392890.nii",
+        "subject_id": "130_S_4883",
+        "date": "01/10/2013",
+        "image_id": "I392890"
+    },
+    "316": {
+        "filename": "dswau130_S_4971_20130125_Resting_State_fMRI_69_I358899.nii",
+        "subject_id": "130_S_4971",
+        "date": "25/01/2013",
+        "image_id": "I358899"
+    },
+    "317": {
+        "filename": "dswau130_S_4990_20121026_Resting_State_fMRI_102_I342915.nii",
+        "subject_id": "130_S_4990",
+        "date": "26/10/2012",
+        "image_id": "I342915"
+    },
+    "318": {
+        "filename": "dswau136_S_0186_20121011_Resting_State_fMRI_60_I365086.nii",
+        "subject_id": "136_S_0186",
+        "date": "11/10/2012",
+        "image_id": "I365086"
+    },
+    "319": {
+        "filename": "dswau130_S_4660_20120808_Resting_State_fMRI_64_I322371.nii",
+        "subject_id": "130_S_4660",
+        "date": "08/08/2012",
+        "image_id": "I322371"
+    },
+    "320": {
+        "filename": "dswau130_S_4925_20130419_Resting_State_fMRI_120_I368186.nii",
+        "subject_id": "130_S_4925",
+        "date": "19/04/2013",
+        "image_id": "I368186"
+    },
+    "321": {
+        "filename": "dswau130_S_4984_20130328_Resting_State_fMRI_54_I364935.nii",
+        "subject_id": "130_S_4984",
+        "date": "28/03/2013",
+        "image_id": "I364935"
+    },
+    "322": {
+        "filename": "dswau130_S_5142_20130726_Resting_State_fMRI_60_I387133.nii",
+        "subject_id": "130_S_5142",
+        "date": "26/07/2013",
+        "image_id": "I387133"
+    },
+    "323": {
+        "filename": "dswau130_S_4990_20130426_Resting_State_fMRI_101_I369264.nii",
+        "subject_id": "130_S_4990",
+        "date": "26/04/2013",
+        "image_id": "I369264"
+    },
+    "324": {
+        "filename": "dswau136_S_0107_20120906_Resting_State_fMRI_60_I332647.nii",
+        "subject_id": "136_S_0107",
+        "date": "06/09/2012",
+        "image_id": "I332647"
+    },
+    "325": {
+        "filename": "dswau130_S_4982_20130426_Resting_State_fMRI_68_I369299.nii",
+        "subject_id": "130_S_4982",
+        "date": "26/04/2013",
+        "image_id": "I369299"
+    },
+    "326": {
+        "filename": "dswau130_S_5175_20130524_Resting_State_fMRI_79_I374299.nii",
+        "subject_id": "130_S_5175",
+        "date": "24/05/2013",
+        "image_id": "I374299"
+    },
+    "327": {
+        "filename": "dswau130_S_4817_20121015_Resting_State_fMRI_107_I340210.nii",
+        "subject_id": "130_S_4817",
+        "date": "15/10/2012",
+        "image_id": "I340210"
+    },
+    "328": {
+        "filename": "dswau130_S_4817_20120703_Resting_State_fMRI_111_I314327.nii",
+        "subject_id": "130_S_4817",
+        "date": "03/07/2012",
+        "image_id": "I314327"
+    },
+    "329": {
+        "filename": "dswau130_S_4997_20121119_Resting_State_fMRI_55_I347402.nii",
+        "subject_id": "130_S_4997",
+        "date": "19/11/2012",
+        "image_id": "I347402"
+    },
+    "330": {
+        "filename": "dswau130_S_4982_20130125_Resting_State_fMRI_73_I358857.nii",
+        "subject_id": "130_S_4982",
+        "date": "25/01/2013",
+        "image_id": "I358857"
+    },
+    "331": {
+        "filename": "dswau130_S_4883_20120810_Resting_State_fMRI_83_I323157.nii",
+        "subject_id": "130_S_4883",
+        "date": "10/08/2012",
+        "image_id": "I323157"
+    },
+    "332": {
+        "filename": "dswau130_S_4883_20130524_Resting_State_fMRI_84_I374318.nii",
+        "subject_id": "130_S_4883",
+        "date": "24/05/2013",
+        "image_id": "I374318"
+    },
+    "333": {
+        "filename": "dswau131_S_5138_20130702_Resting_State_fMRI_66_I379705.nii",
+        "subject_id": "131_S_5138",
+        "date": "02/07/2013",
+        "image_id": "I379705"
+    },
+    "334": {
+        "filename": "dswau130_S_5258_20130718_Resting_State_fMRI_61_I381475.nii",
+        "subject_id": "130_S_5258",
+        "date": "18/07/2013",
+        "image_id": "I381475"
+    },
+    "335": {
+        "filename": "dswau130_S_4730_20120523_Resting_State_fMRI_65_I306375.nii",
+        "subject_id": "130_S_4730",
+        "date": "23/05/2012",
+        "image_id": "I306375"
+    },
+    "336": {
+        "filename": "dswau130_S_5006_20131119_Resting_State_fMRI_64_I398911.nii",
+        "subject_id": "130_S_5006",
+        "date": "19/11/2013",
+        "image_id": "I398911"
+    },
+    "337": {
+        "filename": "dswau130_S_4982_20121023_Resting_State_fMRI_70_I341793.nii",
+        "subject_id": "130_S_4982",
+        "date": "23/10/2012",
+        "image_id": "I341793"
+    },
+    "338": {
+        "filename": "dswau130_S_5059_20130206_Resting_State_fMRI_131_I358777.nii",
+        "subject_id": "130_S_5059",
+        "date": "06/02/2013",
+        "image_id": "I358777"
+    },
+    "339": {
+        "filename": "dswau130_S_4984_20121017_Resting_State_fMRI_55_I342278.nii",
+        "subject_id": "130_S_4984",
+        "date": "17/10/2012",
+        "image_id": "I342278"
+    },
+    "340": {
+        "filename": "dswau130_S_4730_20121219_Resting_State_fMRI_65_I352396.nii",
+        "subject_id": "130_S_4730",
+        "date": "19/12/2012",
+        "image_id": "I352396"
+    },
+    "341": {
+        "filename": "dswau130_S_5006_20130517_Resting_State_fMRI_75_I373027.nii",
+        "subject_id": "130_S_5006",
+        "date": "17/05/2013",
+        "image_id": "I373027"
+    },
+    "342": {
+        "filename": "dswau130_S_4660_20120418_Resting_State_fMRI_62_I300043.nii",
+        "subject_id": "130_S_4660",
+        "date": "18/04/2012",
+        "image_id": "I300043"
+    },
+    "343": {
+        "filename": "dswau130_S_5059_20130510_Resting_State_fMRI_142_I371972.nii",
+        "subject_id": "130_S_5059",
+        "date": "10/05/2013",
+        "image_id": "I371972"
+    },
+    "344": {
+        "filename": "dswau013_S_4395_20120110_Resting_State_fMRI_63_I278367.nii",
+        "subject_id": "013_S_4395",
+        "date": "10/01/2012",
+        "image_id": "I278367"
+    },
+    "345": {
+        "filename": "dswau013_S_4579_20130604_Resting_State_fMRI_72_I375151.nii",
+        "subject_id": "013_S_4579",
+        "date": "04/06/2013",
+        "image_id": "I375151"
+    },
+    "346": {
+        "filename": "dswau013_S_4616_20130425_Resting_State_fMRI_61_I368923.nii",
+        "subject_id": "013_S_4616",
+        "date": "25/04/2013",
+        "image_id": "I368923"
+    },
+    "347": {
+        "filename": "dswau013_S_4917_20121123_Resting_State_fMRI_70_I347725.nii",
+        "subject_id": "013_S_4917",
+        "date": "23/11/2012",
+        "image_id": "I347725"
+    },
+    "348": {
+        "filename": "dswau013_S_4395_20130116_Resting_State_fMRI_63_I363421.nii",
+        "subject_id": "013_S_4395",
+        "date": "16/01/2013",
+        "image_id": "I363421"
+    },
+    "349": {
+        "filename": "dswau013_S_4917_20130320_Resting_State_fMRI_70_I364273.nii",
+        "subject_id": "013_S_4917",
+        "date": "20/03/2013",
+        "image_id": "I364273"
+    },
+    "350": {
+        "filename": "dswau013_S_4917_20120831_Resting_State_fMRI_71_I332584.nii",
+        "subject_id": "013_S_4917",
+        "date": "31/08/2012",
+        "image_id": "I332584"
+    },
+    "351": {
+        "filename": "dswau013_S_4579_20120622_Resting_State_fMRI_72_I314141.nii",
+        "subject_id": "013_S_4579",
+        "date": "22/06/2012",
+        "image_id": "I314141"
+    },
+    "352": {
+        "filename": "dswau013_S_4985_20120705_Resting_State_fMRI_70_I339635.nii",
+        "subject_id": "013_S_4985",
+        "date": "05/07/2012",
+        "image_id": "I339635"
+    },
+    "353": {
+        "filename": "dswau013_S_4268_20120119_Resting_State_fMRI_74_I281497.nii",
+        "subject_id": "013_S_4268",
+        "date": "19/01/2012",
+        "image_id": "I281497"
+    },
+    "354": {
+        "filename": "dswau013_S_4595_20121024_Resting_State_fMRI_80_I342309.nii",
+        "subject_id": "013_S_4595",
+        "date": "24/10/2012",
+        "image_id": "I342309"
+    },
+    "355": {
+        "filename": "dswau013_S_4731_20120531_Resting_State_fMRI_63_I308182.nii",
+        "subject_id": "013_S_4731",
+        "date": "31/05/2012",
+        "image_id": "I308182"
+    },
+    "356": {
+        "filename": "dswau013_S_4616_20120419_Resting_State_fMRI_61_I300088.nii",
+        "subject_id": "013_S_4616",
+        "date": "19/04/2012",
+        "image_id": "I300088"
+    },
+    "357": {
+        "filename": "dswau013_S_4616_20121025_Resting_State_fMRI_62_I343935.nii",
+        "subject_id": "013_S_4616",
+        "date": "25/10/2012",
+        "image_id": "I343935"
+    },
+    "358": {
+        "filename": "dswau013_S_4768_20120626_Resting_State_fMRI_88_I320432.nii",
+        "subject_id": "013_S_4768",
+        "date": "26/06/2012",
+        "image_id": "I320432"
+    },
+    "359": {
+        "filename": "dswau013_S_4595_20130416_Resting_State_fMRI_78_I367838.nii",
+        "subject_id": "013_S_4595",
+        "date": "16/04/2013",
+        "image_id": "I367838"
+    },
+    "360": {
+        "filename": "dswau013_S_4580_20120405_Resting_State_fMRI_64_I296863.nii",
+        "subject_id": "013_S_4580",
+        "date": "05/04/2012",
+        "image_id": "I296863"
+    },
+    "361": {
+        "filename": "dswau013_S_4268_20111101_Resting_State_fMRI_74_I264416.nii",
+        "subject_id": "013_S_4268",
+        "date": "01/11/2011",
+        "image_id": "I264416"
+    },
+    "362": {
+        "filename": "dswau013_S_4268_20121115_Resting_State_fMRI_72_I347747.nii",
+        "subject_id": "013_S_4268",
+        "date": "15/11/2012",
+        "image_id": "I347747"
+    },
+    "363": {
+        "filename": "dswau013_S_4791_20130417_Resting_State_fMRI_74_I367848.nii",
+        "subject_id": "013_S_4791",
+        "date": "17/04/2013",
+        "image_id": "I367848"
+    },
+    "364": {
+        "filename": "dswau013_S_4791_20120926_Resting_State_fMRI_70_I337377.nii",
+        "subject_id": "013_S_4791",
+        "date": "26/09/2012",
+        "image_id": "I337377"
+    },
+    "365": {
+        "filename": "dswau013_S_4579_20121219_Resting_State_fMRI_72_I352724.nii",
+        "subject_id": "013_S_4579",
+        "date": "19/12/2012",
+        "image_id": "I352724"
+    },
+    "366": {
+        "filename": "dswau013_S_4595_20120821_Resting_State_fMRI_81_I325672.nii",
+        "subject_id": "013_S_4595",
+        "date": "21/08/2012",
+        "image_id": "I325672"
+    },
+    "367": {
+        "filename": "dswau013_S_4579_20120404_Resting_State_fMRI_76_I296769.nii",
+        "subject_id": "013_S_4579",
+        "date": "04/04/2012",
+        "image_id": "I296769"
+    },
+    "368": {
+        "filename": "dswau013_S_4917_20130806_Resting_State_fMRI_-999_I390419.nii",
+        "subject_id": "013_S_4917",
+        "date": "06/08/2013",
+        "image_id": "I390419"
+    },
+    "369": {
+        "filename": "dswau013_S_4395_20120815_Resting_State_fMRI_64_I324394.nii",
+        "subject_id": "013_S_4395",
+        "date": "15/08/2012",
+        "image_id": "I324394"
+    },
+    "370": {
+        "filename": "dswau013_S_4580_20130423_Resting_State_fMRI_63_I368950.nii",
+        "subject_id": "013_S_4580",
+        "date": "23/04/2013",
+        "image_id": "I368950"
+    },
+    "371": {
+        "filename": "dswau013_S_4580_20121015_Resting_State_fMRI_63_I340743.nii",
+        "subject_id": "013_S_4580",
+        "date": "15/10/2012",
+        "image_id": "I340743"
+    },
+    "372": {
+        "filename": "dswau013_S_4985_20130411_Resting_State_fMRI_72_I367161.nii",
+        "subject_id": "013_S_4985",
+        "date": "11/04/2013",
+        "image_id": "I367161"
+    },
+    "373": {
+        "filename": "dswau013_S_5071_20130212_Resting_State_fMRI_92_I360323.nii",
+        "subject_id": "013_S_5071",
+        "date": "12/02/2013",
+        "image_id": "I360323"
+    },
+    "374": {
+        "filename": "dswau013_S_4616_20120625_Resting_State_fMRI_61_I314505.nii",
+        "subject_id": "013_S_4616",
+        "date": "25/06/2012",
+        "image_id": "I314505"
+    },
+    "375": {
+        "filename": "dswau013_S_4268_20120523_Resting_State_fMRI_71_I308391.nii",
+        "subject_id": "013_S_4268",
+        "date": "23/05/2012",
+        "image_id": "I308391"
+    },
+    "376": {
+        "filename": "dswau013_S_4595_20120420_Resting_State_fMRI_80_I300057.nii",
+        "subject_id": "013_S_4595",
+        "date": "20/04/2012",
+        "image_id": "I300057"
+    },
+    "377": {
+        "filename": "dswau013_S_4580_20120702_Resting_State_fMRI_63_I369618.nii",
+        "subject_id": "013_S_4580",
+        "date": "02/07/2012",
+        "image_id": "I369618"
+    },
+    "378": {
+        "filename": "dswau013_S_4395_20120416_Resting_State_fMRI_64_I304270.nii",
+        "subject_id": "013_S_4395",
+        "date": "16/04/2012",
+        "image_id": "I304270"
+    },
+    "379": {
+        "filename": "dswau013_S_4791_20121219_Resting_State_fMRI_158_I352722.nii",
+        "subject_id": "013_S_4791",
+        "date": "19/12/2012",
+        "image_id": "I352722"
+    },
+    "380": {
+        "filename": "dswau100_S_5280_20130816_Resting_State_fMRI_80_I387121.nii",
+        "subject_id": "100_S_5280",
+        "date": "16/08/2013",
+        "image_id": "I387121"
+    },
+    "381": {
+        "filename": "dswau129_S_4287_20121030_Resting_State_fMRI_75_I343366.nii",
+        "subject_id": "129_S_4287",
+        "date": "30/10/2012",
+        "image_id": "I343366"
+    },
+    "382": {
+        "filename": "dswau031_S_4194_20110901_Resting_State_fMRI_84_I255284.nii",
+        "subject_id": "031_S_4194",
+        "date": "01/09/2011",
+        "image_id": "I255284"
+    },
+    "383": {
+        "filename": "dswau129_S_4371_20120717_Resting_State_fMRI_100_I316542.nii",
+        "subject_id": "129_S_4371",
+        "date": "17/07/2012",
+        "image_id": "I316542"
+    },
+    "384": {
+        "filename": "dswau129_S_4369_20120807_Resting_State_fMRI_114_I322060.nii",
+        "subject_id": "129_S_4369",
+        "date": "07/08/2012",
+        "image_id": "I322060"
+    },
+    "385": {
+        "filename": "dswau100_S_5280_20150929_Resting_State_fMRI_55_I776235.nii",
+        "subject_id": "100_S_5280",
+        "date": "29/09/2015",
+        "image_id": "I776235"
+    },
+    "386": {
+        "filename": "dswau100_S_4884_20130206_Resting_State_fMRI_95_I361367.nii",
+        "subject_id": "100_S_4884",
+        "date": "06/02/2013",
+        "image_id": "I361367"
+    },
+    "387": {
+        "filename": "dswau129_S_4073_20120723_Resting_State_fMRI_90_I317397.nii",
+        "subject_id": "129_S_4073",
+        "date": "23/07/2012",
+        "image_id": "I317397"
+    },
+    "388": {
+        "filename": "dswau129_S_4220_20120921_Resting_State_fMRI_77_I336187.nii",
+        "subject_id": "129_S_4220",
+        "date": "21/09/2012",
+        "image_id": "I336187"
+    },
+    "389": {
+        "filename": "dswau129_S_4369_20121211_Resting_State_fMRI_91_I350835.nii",
+        "subject_id": "129_S_4369",
+        "date": "11/12/2012",
+        "image_id": "I350835"
+    },
+    "390": {
+        "filename": "dswau129_S_4371_20121128_Resting_State_fMRI_100_I348304.nii",
+        "subject_id": "129_S_4371",
+        "date": "28/11/2012",
+        "image_id": "I348304"
+    },
+    "391": {
+        "filename": "dswau129_S_0778_20120913_Resting_State_fMRI_82_I334140.nii",
+        "subject_id": "129_S_0778",
+        "date": "13/09/2012",
+        "image_id": "I334140"
+    },
+    "392": {
+        "filename": "dswau019_S_5012_20130515_Resting_State_fMRI_73_I372599.nii",
+        "subject_id": "019_S_5012",
+        "date": "15/05/2013",
+        "image_id": "I372599"
+    },
+    "393": {
+        "filename": "dswau019_S_5019_20130211_Resting_State_fMRI_69_I358811.nii",
+        "subject_id": "019_S_5019",
+        "date": "11/02/2013",
+        "image_id": "I358811"
+    },
+    "394": {
+        "filename": "dswau019_S_4548_20120517_Resting_State_fMRI_82_I305233.nii",
+        "subject_id": "019_S_4548",
+        "date": "17/05/2012",
+        "image_id": "I305233"
+    },
+    "395": {
+        "filename": "dswau019_S_4680_20130506_Resting_State_fMRI_73_I370437.nii",
+        "subject_id": "019_S_4680",
+        "date": "06/05/2013",
+        "image_id": "I370437"
+    },
+    "396": {
+        "filename": "dswau018_S_4889_20130813_Resting_State_fMRI_80_I385234.nii",
+        "subject_id": "018_S_4889",
+        "date": "13/08/2013",
+        "image_id": "I385234"
+    },
+    "397": {
+        "filename": "dswau019_S_4367_20120306_Resting_State_fMRI_68_I288745.nii",
+        "subject_id": "019_S_4367",
+        "date": "06/03/2012",
+        "image_id": "I288745"
+    },
+    "398": {
+        "filename": "dswau019_S_4285_20121022_Resting_State_fMRI_85_I341866.nii",
+        "subject_id": "019_S_4285",
+        "date": "22/10/2012",
+        "image_id": "I341866"
+    },
+    "399": {
+        "filename": "dswau019_S_4835_20120710_Resting_State_fMRI_105_I315850.nii",
+        "subject_id": "019_S_4835",
+        "date": "10/07/2012",
+        "image_id": "I315850"
+    },
+    "400": {
+        "filename": "dswau019_S_4367_20131212_Resting_State_fMRI_68_I401663.nii",
+        "subject_id": "019_S_4367",
+        "date": "12/12/2013",
+        "image_id": "I401663"
+    },
+    "401": {
+        "filename": "dswau019_S_4293_20120509_Resting_State_fMRI_97_I302671.nii",
+        "subject_id": "019_S_4293",
+        "date": "09/05/2012",
+        "image_id": "I302671"
+    },
+    "402": {
+        "filename": "dswau019_S_4549_20130313_Resting_State_fMRI_84_I363190.nii",
+        "subject_id": "019_S_4549",
+        "date": "13/03/2013",
+        "image_id": "I363190"
+    },
+    "403": {
+        "filename": "dswau019_S_4252_20110928_Resting_State_fMRI_59_I258955.nii",
+        "subject_id": "019_S_4252",
+        "date": "28/09/2011",
+        "image_id": "I258955"
+    },
+    "404": {
+        "filename": "dswau019_S_5019_20121107_Resting_State_fMRI_70_I345555.nii",
+        "subject_id": "019_S_5019",
+        "date": "07/11/2012",
+        "image_id": "I345555"
+    },
+    "405": {
+        "filename": "dswau019_S_4252_20111214_Resting_State_fMRI_57_I272535.nii",
+        "subject_id": "019_S_4252",
+        "date": "14/12/2011",
+        "image_id": "I272535"
+    },
+    "406": {
+        "filename": "dswau019_S_4549_20121030_Resting_State_fMRI_86_I343285.nii",
+        "subject_id": "019_S_4549",
+        "date": "30/10/2012",
+        "image_id": "I343285"
+    },
+    "407": {
+        "filename": "dswau019_S_4367_20120522_Resting_State_fMRI_66_I306127.nii",
+        "subject_id": "019_S_4367",
+        "date": "22/05/2012",
+        "image_id": "I306127"
+    },
+    "408": {
+        "filename": "dswau019_S_5012_20131205_Resting_State_fMRI_73_I400431.nii",
+        "subject_id": "019_S_5012",
+        "date": "05/12/2013",
+        "image_id": "I400431"
+    },
+    "409": {
+        "filename": "dswau019_S_4477_20120125_Resting_State_fMRI_57_I280778.nii",
+        "subject_id": "019_S_4477",
+        "date": "25/01/2012",
+        "image_id": "I280778"
+    },
+    "410": {
+        "filename": "dswau018_S_5262_20130812_Resting_State_fMRI_80_I385115.nii",
+        "subject_id": "018_S_5262",
+        "date": "12/08/2013",
+        "image_id": "I385115"
+    },
+    "411": {
+        "filename": "dswau018_S_4889_20120810_Resting_State_fMRI_75_I323221.nii",
+        "subject_id": "018_S_4889",
+        "date": "10/08/2012",
+        "image_id": "I323221"
+    },
+    "412": {
+        "filename": "dswau019_S_4293_20111020_Resting_State_fMRI_107_I261984.nii",
+        "subject_id": "019_S_4293",
+        "date": "20/10/2011",
+        "image_id": "I261984"
+    },
+    "413": {
+        "filename": "dswau019_S_4252_20121023_Resting_State_fMRI_57_I341972.nii",
+        "subject_id": "019_S_4252",
+        "date": "23/10/2012",
+        "image_id": "I341972"
+    },
+    "414": {
+        "filename": "dswau019_S_4549_20120723_Resting_State_fMRI_84_I317435.nii",
+        "subject_id": "019_S_4549",
+        "date": "23/07/2012",
+        "image_id": "I317435"
+    },
+    "415": {
+        "filename": "dswau019_S_4680_20120711_Resting_State_fMRI_65_I316049.nii",
+        "subject_id": "019_S_4680",
+        "date": "11/07/2012",
+        "image_id": "I316049"
+    },
+    "416": {
+        "filename": "dswau019_S_4367_20111130_Resting_State_fMRI_69_I269279.nii",
+        "subject_id": "019_S_4367",
+        "date": "30/11/2011",
+        "image_id": "I269279"
+    },
+    "417": {
+        "filename": "dswau019_S_4252_20120424_Resting_State_fMRI_58_I300352.nii",
+        "subject_id": "019_S_4252",
+        "date": "24/04/2012",
+        "image_id": "I300352"
+    },
+    "418": {
+        "filename": "dswau019_S_4835_20121008_Resting_State_fMRI_97_I338813.nii",
+        "subject_id": "019_S_4835",
+        "date": "08/10/2012",
+        "image_id": "I338813"
+    },
+    "419": {
+        "filename": "dswau019_S_4285_20120110_Resting_State_fMRI_89_I277297.nii",
+        "subject_id": "019_S_4285",
+        "date": "10/01/2012",
+        "image_id": "I277297"
+    },
+    "420": {
+        "filename": "dswau019_S_4285_20111013_Resting_State_fMRI_87_I260905.nii",
+        "subject_id": "019_S_4285",
+        "date": "13/10/2011",
+        "image_id": "I260905"
+    },
+    "421": {
+        "filename": "dswau019_S_4477_20120411_Resting_State_fMRI_50_I297106.nii",
+        "subject_id": "019_S_4477",
+        "date": "11/04/2012",
+        "image_id": "I297106"
+    },
+    "422": {
+        "filename": "dswau019_S_4680_20120424_Resting_State_fMRI_63_I300529.nii",
+        "subject_id": "019_S_4680",
+        "date": "24/04/2012",
+        "image_id": "I300529"
+    },
+    "423": {
+        "filename": "dswau019_S_4680_20121029_Resting_State_fMRI_65_I343137.nii",
+        "subject_id": "019_S_4680",
+        "date": "29/10/2012",
+        "image_id": "I343137"
+    },
+    "424": {
+        "filename": "dswau019_S_4548_20130304_Resting_State_fMRI_79_I362146.nii",
+        "subject_id": "019_S_4548",
+        "date": "04/03/2013",
+        "image_id": "I362146"
+    },
+    "425": {
+        "filename": "dswau019_S_4548_20120223_Resting_State_fMRI_82_I286477.nii",
+        "subject_id": "019_S_4548",
+        "date": "23/02/2012",
+        "image_id": "I286477"
+    },
+    "426": {
+        "filename": "dswau019_S_4293_20131113_Resting_State_fMRI_98_I415196.nii",
+        "subject_id": "019_S_4293",
+        "date": "13/11/2013",
+        "image_id": "I415196"
+    },
+    "427": {
+        "filename": "dswau019_S_4293_20120110_Resting_State_fMRI_97_I277286.nii",
+        "subject_id": "019_S_4293",
+        "date": "10/01/2012",
+        "image_id": "I277286"
+    },
+    "428": {
+        "filename": "dswau019_S_4477_20120807_Resting_State_fMRI_50_I322347.nii",
+        "subject_id": "019_S_4477",
+        "date": "07/08/2012",
+        "image_id": "I322347"
+    },
+    "429": {
+        "filename": "dswau019_S_4285_20131107_Resting_State_fMRI_86_I398232.nii",
+        "subject_id": "019_S_4285",
+        "date": "07/11/2013",
+        "image_id": "I398232"
+    },
+    "430": {
+        "filename": "dswau019_S_4293_20121031_Resting_State_fMRI_100_I343304.nii",
+        "subject_id": "019_S_4293",
+        "date": "31/10/2012",
+        "image_id": "I343304"
+    },
+    "431": {
+        "filename": "dswau018_S_5250_20130808_Resting_State_fMRI_60_I384814.nii",
+        "subject_id": "018_S_5250",
+        "date": "08/08/2013",
+        "image_id": "I384814"
+    },
+    "432": {
+        "filename": "dswau019_S_4549_20120423_Resting_State_fMRI_84_I300334.nii",
+        "subject_id": "019_S_4549",
+        "date": "23/04/2012",
+        "image_id": "I300334"
+    },
+    "433": {
+        "filename": "dswau019_S_5012_20121105_Resting_State_fMRI_95_I343912.nii",
+        "subject_id": "019_S_5012",
+        "date": "05/11/2012",
+        "image_id": "I343912"
+    },
+    "434": {
+        "filename": "dswau019_S_4252_20131017_Resting_State_fMRI_61_I396527.nii",
+        "subject_id": "019_S_4252",
+        "date": "17/10/2013",
+        "image_id": "I396527"
+    },
+    "435": {
+        "filename": "dswau019_S_4835_20130724_Resting_State_fMRI_98_I383452.nii",
+        "subject_id": "019_S_4835",
+        "date": "24/07/2013",
+        "image_id": "I383452"
+    },
+    "436": {
+        "filename": "dswau019_S_4548_20120827_Resting_State_fMRI_178_I326518.nii",
+        "subject_id": "019_S_4548",
+        "date": "27/08/2012",
+        "image_id": "I326518"
+    },
+    "437": {
+        "filename": "dswau019_S_5012_20130205_Resting_State_fMRI_86_I358050.nii",
+        "subject_id": "019_S_5012",
+        "date": "05/02/2013",
+        "image_id": "I358050"
+    },
+    "438": {
+        "filename": "dswau019_S_4285_20120430_Resting_State_fMRI_83_I301221.nii",
+        "subject_id": "019_S_4285",
+        "date": "30/04/2012",
+        "image_id": "I301221"
+    },
+    "439": {
+        "filename": "dswau019_S_4477_20140206_Resting_State_fMRI_49_I412884.nii",
+        "subject_id": "019_S_4477",
+        "date": "06/02/2014",
+        "image_id": "I412884"
+    },
+    "440": {
+        "filename": "dswau019_S_4367_20121119_Resting_State_fMRI_68_I347150.nii",
+        "subject_id": "019_S_4367",
+        "date": "19/11/2012",
+        "image_id": "I347150"
+    },
+    "441": {
+        "filename": "dswau019_S_4835_20130115_Resting_State_fMRI_95_I355339.nii",
+        "subject_id": "019_S_4835",
+        "date": "15/01/2013",
+        "image_id": "I355339"
+    },
+    "442": {
+        "filename": "dswau019_S_4477_20130213_Resting_State_fMRI_48_I359770.nii",
+        "subject_id": "019_S_4477",
+        "date": "13/02/2013",
+        "image_id": "I359770"
+    },
+    "443": {
+        "filename": "dswau031_S_4149_20120209_Resting_State_fMRI_81_I284291.nii",
+        "subject_id": "031_S_4149",
+        "date": "09/02/2012",
+        "image_id": "I284291"
+    },
+    "444": {
+        "filename": "dswau031_S_4029_20111110_Resting_State_fMRI_91_I265957.nii",
+        "subject_id": "031_S_4029",
+        "date": "10/11/2011",
+        "image_id": "I265957"
+    },
+    "445": {
+        "filename": "dswau031_S_4021_20111020_Resting_State_fMRI_99_I261918.nii",
+        "subject_id": "031_S_4021",
+        "date": "20/10/2011",
+        "image_id": "I261918"
+    },
+    "446": {
+        "filename": "dswau031_S_4042_20110822_Resting_State_fMRI_75_I252282.nii",
+        "subject_id": "031_S_4042",
+        "date": "22/08/2011",
+        "image_id": "I252282"
+    },
+    "447": {
+        "filename": "dswau136_S_4836_20120806_Resting_State_fMRI_60_I330233.nii",
+        "subject_id": "136_S_4836",
+        "date": "06/08/2012",
+        "image_id": "I330233"
+    },
+    "448": {
+        "filename": "dswau136_S_4189_20120802_Resting_State_fMRI_60_I330141.nii",
+        "subject_id": "136_S_4189",
+        "date": "02/08/2012",
+        "image_id": "I330141"
+    },
+    "449": {
+        "filename": "dswau136_S_4517_20120328_Resting_State_fMRI_60_I293995.nii",
+        "subject_id": "136_S_4517",
+        "date": "28/03/2012",
+        "image_id": "I293995"
+    },
+    "450": {
+        "filename": "dswau031_S_4005_20120412_Resting_State_fMRI_81_I297463.nii",
+        "subject_id": "031_S_4005",
+        "date": "12/04/2012",
+        "image_id": "I297463"
+    },
+    "451": {
+        "filename": "dswau136_S_4269_20131206_Resting_State_fMRI_60_I401073.nii",
+        "subject_id": "136_S_4269",
+        "date": "06/12/2013",
+        "image_id": "I401073"
+    },
+    "452": {
+        "filename": "dswau136_S_4726_20120605_Resting_State_fMRI_60_I308403.nii",
+        "subject_id": "136_S_4726",
+        "date": "05/06/2012",
+        "image_id": "I308403"
+    },
+    "453": {
+        "filename": "dswau031_S_4042_20120514_Resting_State_fMRI_75_I303434.nii",
+        "subject_id": "031_S_4042",
+        "date": "14/05/2012",
+        "image_id": "I303434"
+    },
+    "454": {
+        "filename": "dswau031_S_4024_20111028_Resting_State_fMRI_59_I263860.nii",
+        "subject_id": "031_S_4024",
+        "date": "28/10/2011",
+        "image_id": "I263860"
+    },
+    "455": {
+        "filename": "dswau136_S_4517_20120914_Resting_State_fMRI_60_I335381.nii",
+        "subject_id": "136_S_4517",
+        "date": "14/09/2012",
+        "image_id": "I335381"
+    },
+    "456": {
+        "filename": "dswau136_S_4727_20120605_Resting_State_fMRI_60_I308418.nii",
+        "subject_id": "136_S_4727",
+        "date": "05/06/2012",
+        "image_id": "I308418"
+    },
+    "457": {
+        "filename": "dswau031_S_4029_20120517_Resting_State_fMRI_90_I305277.nii",
+        "subject_id": "031_S_4029",
+        "date": "17/05/2012",
+        "image_id": "I305277"
+    },
+    "458": {
+        "filename": "dswau031_S_4032_20110817_Resting_State_fMRI_52_I251325.nii",
+        "subject_id": "031_S_4032",
+        "date": "17/08/2011",
+        "image_id": "I251325"
+    },
+    "459": {
+        "filename": "dswau131_S_5138_20130402_Resting_State_fMRI_68_I367567.nii",
+        "subject_id": "131_S_5138",
+        "date": "02/04/2013",
+        "image_id": "I367567"
+    },
+    "460": {
+        "filename": "dswau031_S_4029_20130426_Resting_State_fMRI_91_I368901.nii",
+        "subject_id": "031_S_4029",
+        "date": "26/04/2013",
+        "image_id": "I368901"
+    },
+    "461": {
+        "filename": "dswau031_S_4024_20120416_Resting_State_fMRI_61_I297847.nii",
+        "subject_id": "031_S_4024",
+        "date": "16/04/2012",
+        "image_id": "I297847"
+    },
+    "462": {
+        "filename": "dswau136_S_4189_20131106_Resting_State_fMRI_60_I398432.nii",
+        "subject_id": "136_S_4189",
+        "date": "06/11/2013",
+        "image_id": "I398432"
+    },
+    "463": {
+        "filename": "dswau031_S_4005_20130418_Resting_State_fMRI_84_I367820.nii",
+        "subject_id": "031_S_4005",
+        "date": "18/04/2013",
+        "image_id": "I367820"
+    },
+    "464": {
+        "filename": "dswau031_S_4032_20111205_Resting_State_fMRI_55_I270397.nii",
+        "subject_id": "031_S_4032",
+        "date": "05/12/2011",
+        "image_id": "I270397"
+    },
+    "465": {
+        "filename": "dswau031_S_4149_20110805_Resting_State_fMRI_79_I249144.nii",
+        "subject_id": "031_S_4149",
+        "date": "05/08/2011",
+        "image_id": "I249144"
+    },
+    "466": {
+        "filename": "dswau136_S_4848_20121015_Resting_State_fMRI_60_I342476.nii",
+        "subject_id": "136_S_4848",
+        "date": "15/10/2012",
+        "image_id": "I342476"
+    },
+    "467": {
+        "filename": "dswau130_S_5175_20130816_Resting_State_fMRI_72_I385739.nii",
+        "subject_id": "130_S_5175",
+        "date": "16/08/2013",
+        "image_id": "I385739"
+    },
+    "468": {
+        "filename": "dswau031_S_4042_20130221_Resting_State_fMRI_75_I360939.nii",
+        "subject_id": "031_S_4042",
+        "date": "21/02/2013",
+        "image_id": "I360939"
+    },
+    "469": {
+        "filename": "dswau031_S_4024_20110422_Resting_State_fMRI_64_I228872.nii",
+        "subject_id": "031_S_4024",
+        "date": "22/04/2011",
+        "image_id": "I228872"
+    },
+    "470": {
+        "filename": "dswau136_S_4932_20121022_Resting_State_fMRI_60_I375500.nii",
+        "subject_id": "136_S_4932",
+        "date": "22/10/2012",
+        "image_id": "I375500"
+    },
+    "471": {
+        "filename": "dswau031_S_4042_20111208_Resting_State_fMRI_75_I270573.nii",
+        "subject_id": "031_S_4042",
+        "date": "08/12/2011",
+        "image_id": "I270573"
+    },
+    "472": {
+        "filename": "dswau031_S_4029_20110426_Resting_State_fMRI_91_I229511.nii",
+        "subject_id": "031_S_4029",
+        "date": "26/04/2011",
+        "image_id": "I229511"
+    },
+    "473": {
+        "filename": "dswau031_S_4032_20110509_Resting_State_fMRI_52_I234917.nii",
+        "subject_id": "031_S_4032",
+        "date": "09/05/2011",
+        "image_id": "I234917"
+    },
+    "474": {
+        "filename": "dswau031_S_4029_20110808_Resting_State_fMRI_91_I249328.nii",
+        "subject_id": "031_S_4029",
+        "date": "08/08/2011",
+        "image_id": "I249328"
+    },
+    "475": {
+        "filename": "dswau031_S_4149_20111103_Resting_State_fMRI_82_I264701.nii",
+        "subject_id": "031_S_4149",
+        "date": "03/11/2011",
+        "image_id": "I264701"
+    },
+    "476": {
+        "filename": "dswau031_S_4021_20120426_Resting_State_fMRI_99_I300743.nii",
+        "subject_id": "031_S_4021",
+        "date": "26/04/2012",
+        "image_id": "I300743"
+    },
+    "477": {
+        "filename": "dswau136_S_4269_20111031_Resting_State_fMRI_100_I264214.nii",
+        "subject_id": "136_S_4269",
+        "date": "31/10/2011",
+        "image_id": "I264214"
+    },
+    "478": {
+        "filename": "dswau136_S_4433_20120116_Resting_State_fMRI_60_I279084.nii",
+        "subject_id": "136_S_4433",
+        "date": "16/01/2012",
+        "image_id": "I279084"
+    },
+    "479": {
+        "filename": "dswau031_S_4021_20110419_Resting_State_fMRI_98_I229146.nii",
+        "subject_id": "031_S_4021",
+        "date": "19/04/2011",
+        "image_id": "I229146"
+    },
+    "480": {
+        "filename": "dswau031_S_4032_20120517_Resting_State_fMRI_52_I305150.nii",
+        "subject_id": "031_S_4032",
+        "date": "17/05/2012",
+        "image_id": "I305150"
+    },
+    "481": {
+        "filename": "dswau031_S_4021_20110726_Resting_State_fMRI_98_I246871.nii",
+        "subject_id": "031_S_4021",
+        "date": "26/07/2011",
+        "image_id": "I246871"
+    },
+    "482": {
+        "filename": "dswau136_S_4408_20120801_Resting_State_fMRI_60_I330138.nii",
+        "subject_id": "136_S_4408",
+        "date": "01/08/2012",
+        "image_id": "I330138"
+    },
+    "483": {
+        "filename": "dswau136_S_4408_20120127_Resting_State_fMRI_80_I281024.nii",
+        "subject_id": "136_S_4408",
+        "date": "27/01/2012",
+        "image_id": "I281024"
+    },
+    "484": {
+        "filename": "dswau131_S_5148_20130418_Resting_State_fMRI_91_I367728.nii",
+        "subject_id": "131_S_5148",
+        "date": "18/04/2013",
+        "image_id": "I367728"
+    },
+    "485": {
+        "filename": "dswau136_S_4433_20120918_Resting_State_fMRI_60_I336199.nii",
+        "subject_id": "136_S_4433",
+        "date": "18/09/2012",
+        "image_id": "I336199"
+    },
+    "486": {
+        "filename": "dswau031_S_4021_20130506_Resting_State_fMRI_98_I370595.nii",
+        "subject_id": "031_S_4021",
+        "date": "06/05/2013",
+        "image_id": "I370595"
+    },
+    "487": {
+        "filename": "dswau031_S_4024_20110729_Resting_State_fMRI_57_I248870.nii",
+        "subject_id": "031_S_4024",
+        "date": "29/07/2011",
+        "image_id": "I248870"
+    },
+    "488": {
+        "filename": "dswau136_S_4269_20120215_Resting_State_fMRI_60_I285011.nii",
+        "subject_id": "136_S_4269",
+        "date": "15/02/2012",
+        "image_id": "I285011"
+    },
+    "489": {
+        "filename": "dswau031_S_4042_20110512_Resting_State_fMRI_76_I235238.nii",
+        "subject_id": "031_S_4042",
+        "date": "12/05/2011",
+        "image_id": "I235238"
+    },
+    "490": {
+        "filename": "dswau136_S_4269_20120809_Resting_State_fMRI_60_I330165.nii",
+        "subject_id": "136_S_4269",
+        "date": "09/08/2012",
+        "image_id": "I330165"
+    },
+    "491": {
+        "filename": "dswau031_S_4032_20130509_Resting_State_fMRI_54_I371750.nii",
+        "subject_id": "031_S_4032",
+        "date": "09/05/2013",
+        "image_id": "I371750"
+    },
+    "492": {
+        "filename": "dswau130_S_4589_20121116_Resting_State_fMRI_45_I347092.nii",
+        "subject_id": "130_S_4589",
+        "date": "16/11/2012",
+        "image_id": "I347092"
+    },
+    "493": {
+        "filename": "dswau130_S_4641_20130412_Resting_State_fMRI_68_I367094.nii",
+        "subject_id": "130_S_4641",
+        "date": "12/04/2013",
+        "image_id": "I367094"
+    },
+    "494": {
+        "filename": "dswau100_S_4556_20130606_Resting_State_fMRI_80_I375664.nii",
+        "subject_id": "100_S_4556",
+        "date": "06/06/2013",
+        "image_id": "I375664"
+    },
+    "495": {
+        "filename": "dswau100_S_4511_20120309_Resting_State_fMRI_90_I289656.nii",
+        "subject_id": "100_S_4511",
+        "date": "09/03/2012",
+        "image_id": "I289656"
+    },
+    "496": {
+        "filename": "dswau053_S_4661_20120528_Resting_State_fMRI_90_I306672.nii",
+        "subject_id": "053_S_4661",
+        "date": "28/05/2012",
+        "image_id": "I306672"
+    },
+    "497": {
+        "filename": "dswau053_S_5208_20130617_Resting_State_fMRI_136_I376933.nii",
+        "subject_id": "053_S_5208",
+        "date": "17/06/2013",
+        "image_id": "I376933"
+    },
+    "498": {
+        "filename": "dswau053_S_4661_20130612_Resting_State_fMRI_95_I376324.nii",
+        "subject_id": "053_S_4661",
+        "date": "12/06/2013",
+        "image_id": "I376324"
+    },
+    "499": {
+        "filename": "dswau053_S_5070_20130131_Resting_State_fMRI_63_I357475.nii",
+        "subject_id": "053_S_5070",
+        "date": "31/01/2013",
+        "image_id": "I357475"
+    },
+    "500": {
+        "filename": "dswau100_S_4469_20120308_Resting_State_fMRI_90_I289559.nii",
+        "subject_id": "100_S_4469",
+        "date": "08/03/2012",
+        "image_id": "I289559"
+    },
+    "501": {
+        "filename": "dswau100_S_5075_20130305_Resting_State_fMRI_70_I362410.nii",
+        "subject_id": "100_S_5075",
+        "date": "05/03/2013",
+        "image_id": "I362410"
+    },
+    "502": {
+        "filename": "dswau053_S_4813_20130731_Resting_State_fMRI_77_I383934.nii",
+        "subject_id": "053_S_4813",
+        "date": "31/07/2013",
+        "image_id": "I383934"
+    },
+    "503": {
+        "filename": "dswau053_S_2396_20130726_Resting_State_fMRI_84_I382880.nii",
+        "subject_id": "053_S_2396",
+        "date": "26/07/2013",
+        "image_id": "I382880"
+    },
+    "504": {
+        "filename": "dswau100_S_4469_20121023_Resting_State_fMRI_85_I341918.nii",
+        "subject_id": "100_S_4469",
+        "date": "23/10/2012",
+        "image_id": "I341918"
+    },
+    "505": {
+        "filename": "dswau053_S_4557_20120927_Resting_State_fMRI_95_I337186.nii",
+        "subject_id": "053_S_4557",
+        "date": "27/09/2012",
+        "image_id": "I337186"
+    },
+    "506": {
+        "filename": "dswau100_S_4556_20120426_Resting_State_fMRI_75_I300841.nii",
+        "subject_id": "100_S_4556",
+        "date": "26/04/2012",
+        "image_id": "I300841"
+    },
+    "507": {
+        "filename": "dswau053_S_5070_20130910_Resting_State_fMRI_57_I389296.nii",
+        "subject_id": "053_S_5070",
+        "date": "10/09/2013",
+        "image_id": "I389296"
+    },
+    "508": {
+        "filename": "dswau053_S_4557_20120604_Resting_State_fMRI_98_I307991.nii",
+        "subject_id": "053_S_4557",
+        "date": "04/06/2012",
+        "image_id": "I307991"
+    },
+    "509": {
+        "filename": "dswau100_S_5106_20130422_Resting_State_fMRI_95_I368413.nii",
+        "subject_id": "100_S_5106",
+        "date": "22/04/2013",
+        "image_id": "I368413"
+    },
+    "510": {
+        "filename": "dswau053_S_4578_20121003_Resting_State_fMRI_70_I337993.nii",
+        "subject_id": "053_S_4578",
+        "date": "03/10/2012",
+        "image_id": "I337993"
+    },
+    "511": {
+        "filename": "dswau100_S_5096_20130328_Resting_State_fMRI_80_I364799.nii",
+        "subject_id": "100_S_5096",
+        "date": "28/03/2013",
+        "image_id": "I364799"
+    },
+    "512": {
+        "filename": "dswau053_S_4557_20130304_Resting_State_fMRI_91_I745749.nii",
+        "subject_id": "053_S_4557",
+        "date": "04/03/2013",
+        "image_id": "I745749"
+    },
+    "513": {
+        "filename": "dswau053_S_4813_20120716_Resting_State_fMRI_78_I316519.nii",
+        "subject_id": "053_S_4813",
+        "date": "16/07/2012",
+        "image_id": "I316519"
+    },
+    "514": {
+        "filename": "dswau100_S_4556_20121126_Resting_State_fMRI_85_I347906.nii",
+        "subject_id": "100_S_4556",
+        "date": "26/11/2012",
+        "image_id": "I347906"
+    },
+    "515": {
+        "filename": "dswau053_S_5272_20130812_Resting_State_fMRI_66_I385101.nii",
+        "subject_id": "053_S_5272",
+        "date": "12/08/2013",
+        "image_id": "I385101"
+    },
+    "516": {
+        "filename": "dswau100_S_4512_20120720_Resting_State_fMRI_90_I317378.nii",
+        "subject_id": "100_S_4512",
+        "date": "20/07/2012",
+        "image_id": "I317378"
+    },
+    "517": {
+        "filename": "dswau100_S_4512_20121106_Resting_State_fMRI_70_I344443.nii",
+        "subject_id": "100_S_4512",
+        "date": "06/11/2012",
+        "image_id": "I344443"
+    },
+    "518": {
+        "filename": "dswau100_S_4970_20121022_Resting_State_fMRI_80_I341823.nii",
+        "subject_id": "100_S_4970",
+        "date": "22/10/2012",
+        "image_id": "I341823"
+    },
+    "519": {
+        "filename": "dswau053_S_5070_20140221_Resting_State_fMRI_70_I415178.nii",
+        "subject_id": "053_S_5070",
+        "date": "21/02/2014",
+        "image_id": "I415178"
+    },
+    "520": {
+        "filename": "dswau100_S_5102_20130329_Resting_State_fMRI_80_I365276.nii",
+        "subject_id": "100_S_5102",
+        "date": "29/03/2013",
+        "image_id": "I365276"
+    },
+    "521": {
+        "filename": "dswau053_S_4661_20121205_Resting_State_fMRI_95_I777648.nii",
+        "subject_id": "053_S_4661",
+        "date": "05/12/2012",
+        "image_id": "I777648"
+    },
+    "522": {
+        "filename": "dswau100_S_4469_20130411_Resting_State_fMRI_90_I366944.nii",
+        "subject_id": "100_S_4469",
+        "date": "11/04/2013",
+        "image_id": "I366944"
+    },
+    "523": {
+        "filename": "dswau100_S_4512_20120418_Resting_State_fMRI_80_I298266.nii",
+        "subject_id": "100_S_4512",
+        "date": "18/04/2012",
+        "image_id": "I298266"
+    },
+    "524": {
+        "filename": "dswau053_S_4578_20120608_Resting_State_fMRI_70_I309727.nii",
+        "subject_id": "053_S_4578",
+        "date": "08/06/2012",
+        "image_id": "I309727"
+    },
+    "525": {
+        "filename": "dswau053_S_4661_20120911_Resting_State_fMRI_95_I333641.nii",
+        "subject_id": "053_S_4661",
+        "date": "11/09/2012",
+        "image_id": "I333641"
+    },
+    "526": {
+        "filename": "dswau053_S_5070_20130513_Resting_State_fMRI_63_I372254.nii",
+        "subject_id": "053_S_5070",
+        "date": "13/05/2013",
+        "image_id": "I372254"
+    },
+    "527": {
+        "filename": "dswau053_S_5287_20130910_Resting_State_fMRI_50_I389318.nii",
+        "subject_id": "053_S_5287",
+        "date": "10/09/2013",
+        "image_id": "I389318"
+    },
+    "528": {
+        "filename": "dswau053_S_4813_20130110_Resting_State_fMRI_77_I354697.nii",
+        "subject_id": "053_S_4813",
+        "date": "10/01/2013",
+        "image_id": "I354697"
+    },
+    "529": {
+        "filename": "dswau053_S_4578_20130410_Resting_State_fMRI_69_I366388.nii",
+        "subject_id": "053_S_4578",
+        "date": "10/04/2013",
+        "image_id": "I366388"
+    },
+    "530": {
+        "filename": "dswau100_S_4469_20120612_Resting_State_fMRI_85_I310188.nii",
+        "subject_id": "100_S_4469",
+        "date": "12/06/2012",
+        "image_id": "I310188"
+    },
+    "531": {
+        "filename": "dswau100_S_5091_20130306_Resting_State_fMRI_95_I362420.nii",
+        "subject_id": "100_S_5091",
+        "date": "06/03/2013",
+        "image_id": "I362420"
+    },
+    "532": {
+        "filename": "dswau100_S_5246_20130820_Resting_State_fMRI_80_I387091.nii",
+        "subject_id": "100_S_5246",
+        "date": "20/08/2013",
+        "image_id": "I387091"
+    },
+    "533": {
+        "filename": "dswau100_S_4556_20120716_Resting_State_fMRI_90_I316406.nii",
+        "subject_id": "100_S_4556",
+        "date": "16/07/2012",
+        "image_id": "I316406"
+    },
+    "534": {
+        "filename": "dswau100_S_2351_20110513_Resting_State_fMRI_75_I235258.nii",
+        "subject_id": "100_S_2351",
+        "date": "13/05/2011",
+        "image_id": "I235258"
+    },
+    "535": {
+        "filename": "dswau053_S_5296_20131210_Resting_State_fMRI_76_I401123.nii",
+        "subject_id": "053_S_5296",
+        "date": "10/12/2013",
+        "image_id": "I401123"
+    },
+    "536": {
+        "filename": "dswau053_S_4557_20120308_Resting_State_fMRI_98_I289331.nii",
+        "subject_id": "053_S_4557",
+        "date": "08/03/2012",
+        "image_id": "I289331"
+    },
+    "537": {
+        "filename": "dswau100_S_2281_20110214_Resting_State_fMRI_110_I217884.nii",
+        "subject_id": "100_S_2281",
+        "date": "14/02/2011",
+        "image_id": "I217884"
+    },
+    "538": {
+        "filename": "dswau100_S_4512_20130617_Resting_State_fMRI_85_I377061.nii",
+        "subject_id": "100_S_4512",
+        "date": "17/06/2013",
+        "image_id": "I377061"
+    },
+    "539": {
+        "filename": "dswau053_S_4578_20120316_Resting_State_fMRI_70_I290815.nii",
+        "subject_id": "053_S_4578",
+        "date": "16/03/2012",
+        "image_id": "I290815"
+    },
+    "540": {
+        "filename": "dswau053_S_5202_20130607_Resting_State_fMRI_61_I375698.nii",
+        "subject_id": "053_S_5202",
+        "date": "07/06/2013",
+        "image_id": "I375698"
+    },
+    "541": {
+        "filename": "dswau053_S_2357_20111102_Resting_State_fMRI_80_I264531.nii",
+        "subject_id": "053_S_2357",
+        "date": "02/11/2011",
+        "image_id": "I264531"
+    },
+    "542": {
+        "filename": "dswau053_S_5202_20130920_Resting_State_fMRI_61_I391409.nii",
+        "subject_id": "053_S_5202",
+        "date": "20/09/2013",
+        "image_id": "I391409"
+    },
+    "543": {
+        "filename": "dswau031_S_4590_20120615_Resting_State_fMRI_64_I310766.nii",
+        "subject_id": "031_S_4590",
+        "date": "15/06/2012",
+        "image_id": "I310766"
+    },
+    "544": {
+        "filename": "dswau031_S_4476_20120420_Resting_State_fMRI_79_I299318.nii",
+        "subject_id": "031_S_4476",
+        "date": "20/04/2012",
+        "image_id": "I299318"
+    },
+    "545": {
+        "filename": "dswau031_S_4947_20130416_Resting_State_fMRI_71_I367326.nii",
+        "subject_id": "031_S_4947",
+        "date": "16/04/2013",
+        "image_id": "I367326"
+    },
+    "546": {
+        "filename": "dswau031_S_4194_20120228_Resting_State_fMRI_82_I286940.nii",
+        "subject_id": "031_S_4194",
+        "date": "28/02/2012",
+        "image_id": "I286940"
+    },
+    "547": {
+        "filename": "dswau053_S_2396_20120730_Resting_State_fMRI_82_I319578.nii",
+        "subject_id": "053_S_2396",
+        "date": "30/07/2012",
+        "image_id": "I319578"
+    },
+    "548": {
+        "filename": "dswau031_S_4203_20111205_Resting_State_fMRI_106_I270542.nii",
+        "subject_id": "031_S_4203",
+        "date": "05/12/2011",
+        "image_id": "I270542"
+    },
+    "549": {
+        "filename": "dswau031_S_4947_20131017_Resting_State_fMRI_71_I394943.nii",
+        "subject_id": "031_S_4947",
+        "date": "17/10/2013",
+        "image_id": "I394943"
+    },
+    "550": {
+        "filename": "dswau031_S_4590_20121001_Resting_State_fMRI_64_I417557.nii",
+        "subject_id": "031_S_4590",
+        "date": "01/10/2012",
+        "image_id": "I417557"
+    },
+    "551": {
+        "filename": "dswau031_S_4218_20130918_Resting_State_fMRI_77_I391167.nii",
+        "subject_id": "031_S_4218",
+        "date": "18/09/2013",
+        "image_id": "I391167"
+    },
+    "552": {
+        "filename": "dswau031_S_4590_20120315_Resting_State_fMRI_63_I290644.nii",
+        "subject_id": "031_S_4590",
+        "date": "15/03/2012",
+        "image_id": "I290644"
+    },
+    "553": {
+        "filename": "dswau031_S_4218_20120323_Resting_State_fMRI_78_I292605.nii",
+        "subject_id": "031_S_4218",
+        "date": "23/03/2012",
+        "image_id": "I292605"
+    },
+    "554": {
+        "filename": "dswau031_S_4474_20120124_Resting_State_fMRI_58_I280365.nii",
+        "subject_id": "031_S_4474",
+        "date": "24/01/2012",
+        "image_id": "I280365"
+    },
+    "555": {
+        "filename": "dswau031_S_4474_20120801_Resting_State_fMRI_56_I321203.nii",
+        "subject_id": "031_S_4474",
+        "date": "01/08/2012",
+        "image_id": "I321203"
+    },
+    "556": {
+        "filename": "dswau053_S_2357_20110715_Resting_State_fMRI_76_I245122.nii",
+        "subject_id": "053_S_2357",
+        "date": "15/07/2011",
+        "image_id": "I245122"
+    },
+    "557": {
+        "filename": "dswau031_S_4218_20111208_Resting_State_fMRI_78_I274090.nii",
+        "subject_id": "031_S_4218",
+        "date": "08/12/2011",
+        "image_id": "I274090"
+    },
+    "558": {
+        "filename": "dswau031_S_4947_20120928_Resting_State_fMRI_68_I339436.nii",
+        "subject_id": "031_S_4947",
+        "date": "28/09/2012",
+        "image_id": "I339436"
+    },
+    "559": {
+        "filename": "dswau031_S_4194_20120924_Resting_State_fMRI_84_I338318.nii",
+        "subject_id": "031_S_4194",
+        "date": "24/09/2012",
+        "image_id": "I338318"
+    },
+    "560": {
+        "filename": "dswau053_S_2396_20111121_Resting_State_fMRI_82_I267918.nii",
+        "subject_id": "053_S_2396",
+        "date": "21/11/2011",
+        "image_id": "I267918"
+    },
+    "561": {
+        "filename": "dswau053_S_2357_20120517_Resting_State_fMRI_77_I305210.nii",
+        "subject_id": "053_S_2357",
+        "date": "17/05/2012",
+        "image_id": "I305210"
+    },
+    "562": {
+        "filename": "dswau031_S_4496_20140220_Resting_State_fMRI_85_I414942.nii",
+        "subject_id": "031_S_4496",
+        "date": "20/02/2014",
+        "image_id": "I414942"
+    },
+    "563": {
+        "filename": "dswau031_S_4194_20111201_Resting_State_fMRI_84_I269694.nii",
+        "subject_id": "031_S_4194",
+        "date": "01/12/2011",
+        "image_id": "I269694"
+    },
+    "564": {
+        "filename": "dswau031_S_4218_20121002_Resting_State_fMRI_78_I337977.nii",
+        "subject_id": "031_S_4218",
+        "date": "02/10/2012",
+        "image_id": "I337977"
+    },
+    "565": {
+        "filename": "dswau031_S_4721_20120830_Resting_State_fMRI_83_I328499.nii",
+        "subject_id": "031_S_4721",
+        "date": "30/08/2012",
+        "image_id": "I328499"
+    },
+    "566": {
+        "filename": "dswau053_S_2357_20130529_Resting_State_fMRI_75_I374515.nii",
+        "subject_id": "053_S_2357",
+        "date": "29/05/2013",
+        "image_id": "I374515"
+    },
+    "567": {
+        "filename": "dswau031_S_4203_20130923_Resting_State_fMRI_110_I391665.nii",
+        "subject_id": "031_S_4203",
+        "date": "23/09/2013",
+        "image_id": "I391665"
+    },
+    "568": {
+        "filename": "dswau031_S_4203_20120926_Resting_State_fMRI_101_I348195.nii",
+        "subject_id": "031_S_4203",
+        "date": "26/09/2012",
+        "image_id": "I348195"
+    },
+    "569": {
+        "filename": "dswau031_S_4476_20120817_Resting_State_fMRI_81_I324478.nii",
+        "subject_id": "031_S_4476",
+        "date": "17/08/2012",
+        "image_id": "I324478"
+    },
+    "570": {
+        "filename": "dswau053_S_2357_20110420_Resting_State_fMRI_80_I228463.nii",
+        "subject_id": "053_S_2357",
+        "date": "20/04/2011",
+        "image_id": "I228463"
+    },
+    "571": {
+        "filename": "dswau053_S_2396_20110727_Resting_State_fMRI_82_I247533.nii",
+        "subject_id": "053_S_2396",
+        "date": "27/07/2011",
+        "image_id": "I247533"
+    },
+    "572": {
+        "filename": "dswau031_S_4496_20130307_Resting_State_fMRI_73_I362235.nii",
+        "subject_id": "031_S_4496",
+        "date": "07/03/2013",
+        "image_id": "I362235"
+    },
+    "573": {
+        "filename": "dswau031_S_4947_20130111_Resting_State_fMRI_70_I354860.nii",
+        "subject_id": "031_S_4947",
+        "date": "11/01/2013",
+        "image_id": "I354860"
+    },
+    "574": {
+        "filename": "dswau031_S_4496_20120820_Resting_State_fMRI_69_I325233.nii",
+        "subject_id": "031_S_4496",
+        "date": "20/08/2012",
+        "image_id": "I325233"
+    },
+    "575": {
+        "filename": "dswau031_S_4203_20110831_Resting_State_fMRI_109_I255309.nii",
+        "subject_id": "031_S_4203",
+        "date": "31/08/2011",
+        "image_id": "I255309"
+    },
+    "576": {
+        "filename": "dswau041_S_5026_20131211_Resting_State_fMRI_88_I401558.nii",
+        "subject_id": "041_S_5026",
+        "date": "11/12/2013",
+        "image_id": "I401558"
+    },
+    "577": {
+        "filename": "dswau053_S_0919_20131205_Resting_State_fMRI_89_I400360.nii",
+        "subject_id": "053_S_0919",
+        "date": "05/12/2013",
+        "image_id": "I400360"
+    },
+    "578": {
+        "filename": "dswau031_S_4476_20120127_Resting_State_fMRI_80_I281149.nii",
+        "subject_id": "031_S_4476",
+        "date": "27/01/2012",
+        "image_id": "I281149"
+    },
+    "579": {
+        "filename": "dswau031_S_4721_20120514_Resting_State_fMRI_86_I304675.nii",
+        "subject_id": "031_S_4721",
+        "date": "14/05/2012",
+        "image_id": "I304675"
+    },
+    "580": {
+        "filename": "dswau031_S_4474_20120507_Resting_State_fMRI_57_I302555.nii",
+        "subject_id": "031_S_4474",
+        "date": "07/05/2012",
+        "image_id": "I302555"
+    },
+    "581": {
+        "filename": "dswau031_S_4496_20120203_Resting_State_fMRI_71_I282646.nii",
+        "subject_id": "031_S_4496",
+        "date": "03/02/2012",
+        "image_id": "I282646"
+    },
+    "582": {
+        "filename": "dswau053_S_2396_20120207_Resting_State_fMRI_68_I283305.nii",
+        "subject_id": "053_S_2396",
+        "date": "07/02/2012",
+        "image_id": "I283305"
+    },
+    "583": {
+        "filename": "dswau053_S_0919_20130104_Resting_State_fMRI_86_I354654.nii",
+        "subject_id": "053_S_0919",
+        "date": "04/01/2013",
+        "image_id": "I354654"
+    },
+    "584": {
+        "filename": "dswau031_S_4721_20130523_Resting_State_fMRI_85_I373711.nii",
+        "subject_id": "031_S_4721",
+        "date": "23/05/2013",
+        "image_id": "I373711"
+    },
+    "585": {
+        "filename": "dswau031_S_4476_20130201_Resting_State_fMRI_80_I357940.nii",
+        "subject_id": "031_S_4476",
+        "date": "01/02/2013",
+        "image_id": "I357940"
+    },
+    "586": {
+        "filename": "dswau031_S_4721_20121127_Resting_State_fMRI_84_I348153.nii",
+        "subject_id": "031_S_4721",
+        "date": "27/11/2012",
+        "image_id": "I348153"
+    },
+    "587": {
+        "filename": "dswau031_S_4194_20130905_Resting_State_fMRI_84_I388696.nii",
+        "subject_id": "031_S_4194",
+        "date": "05/09/2013",
+        "image_id": "I388696"
+    },
+    "588": {
+        "filename": "dswau031_S_4590_20130325_Resting_State_fMRI_61_I364453.nii",
+        "subject_id": "031_S_4590",
+        "date": "25/03/2013",
+        "image_id": "I364453"
+    },
+    "589": {
+        "filename": "dswau031_S_4218_20110908_Resting_State_fMRI_78_I255986.nii",
+        "subject_id": "031_S_4218",
+        "date": "08/09/2011",
+        "image_id": "I255986"
+    },
+    "590": {
+        "filename": "dswau031_S_4203_20120320_Resting_State_fMRI_238_I291146.nii",
+        "subject_id": "031_S_4203",
+        "date": "20/03/2012",
+        "image_id": "I291146"
+    },
+    "591": {
+        "filename": "dswau031_S_4496_20120511_Resting_State_fMRI_68_I303248.nii",
+        "subject_id": "031_S_4496",
+        "date": "11/05/2012",
+        "image_id": "I303248"
+    },
+    "592": {
+        "filename": "dswau018_S_2180_20101209_Resting_State_fMRI_68_I207991.nii",
+        "subject_id": "018_S_2180",
+        "date": "09/12/2010",
+        "image_id": "I207991"
+    },
+    "593": {
+        "filename": "dswau018_S_2155_20131203_Resting_State_fMRI_50_I399918.nii",
+        "subject_id": "018_S_2155",
+        "date": "03/12/2013",
+        "image_id": "I399918"
+    },
+    "594": {
+        "filename": "dswau010_S_5163_20130529_Resting_State_fMRI_80_I375331.nii",
+        "subject_id": "010_S_5163",
+        "date": "29/05/2013",
+        "image_id": "I375331"
+    },
+    "595": {
+        "filename": "dswau010_S_4442_20120720_Resting_State_fMRI_70_I319211.nii",
+        "subject_id": "010_S_4442",
+        "date": "20/07/2012",
+        "image_id": "I319211"
+    },
+    "596": {
+        "filename": "dswau031_S_4149_20120831_Resting_State_fMRI_84_I329780.nii",
+        "subject_id": "031_S_4149",
+        "date": "31/08/2012",
+        "image_id": "I329780"
+    },
+    "597": {
+        "filename": "dswau031_S_4149_20130823_Resting_State_fMRI_84_I387206.nii",
+        "subject_id": "031_S_4149",
+        "date": "23/08/2013",
+        "image_id": "I387206"
+    },
+    "598": {
+        "filename": "dswau018_S_4399_20120502_Resting_State_fMRI_65_I301492.nii",
+        "subject_id": "018_S_4399",
+        "date": "02/05/2012",
+        "image_id": "I301492"
+    },
+    "599": {
+        "filename": "dswau018_S_4349_20111115_Resting_State_fMRI_70_I266634.nii",
+        "subject_id": "018_S_4349",
+        "date": "15/11/2011",
+        "image_id": "I266634"
+    },
+    "600": {
+        "filename": "dswau018_S_4400_20120717_Resting_State_fMRI_100_I316619.nii",
+        "subject_id": "018_S_4400",
+        "date": "17/07/2012",
+        "image_id": "I316619"
+    },
+    "601": {
+        "filename": "dswau018_S_4809_20130108_Resting_State_fMRI_70_I353986.nii",
+        "subject_id": "018_S_4809",
+        "date": "08/01/2013",
+        "image_id": "I353986"
+    },
+    "602": {
+        "filename": "dswau018_S_4313_20120801_Resting_State_fMRI_75_I321439.nii",
+        "subject_id": "018_S_4313",
+        "date": "01/08/2012",
+        "image_id": "I321439"
+    },
+    "603": {
+        "filename": "dswau018_S_4399_20111215_Resting_State_fMRI_80_I272223.nii",
+        "subject_id": "018_S_4399",
+        "date": "15/12/2011",
+        "image_id": "I272223"
+    },
+    "604": {
+        "filename": "dswau018_S_2180_20120127_Resting_State_fMRI_80_I281032.nii",
+        "subject_id": "018_S_2180",
+        "date": "27/01/2012",
+        "image_id": "I281032"
+    },
+    "605": {
+        "filename": "dswau018_S_4349_20120710_Resting_State_fMRI_85_I315798.nii",
+        "subject_id": "018_S_4349",
+        "date": "10/07/2012",
+        "image_id": "I315798"
+    },
+    "606": {
+        "filename": "dswau018_S_4696_20120803_Resting_State_fMRI_60_I321520.nii",
+        "subject_id": "018_S_4696",
+        "date": "03/08/2012",
+        "image_id": "I321520"
+    },
+    "607": {
+        "filename": "dswau018_S_4257_20111024_Resting_State_fMRI_66_I262078.nii",
+        "subject_id": "018_S_4257",
+        "date": "24/10/2011",
+        "image_id": "I262078"
+    },
+    "608": {
+        "filename": "dswau018_S_4889_20130228_Resting_State_fMRI_83_I361591.nii",
+        "subject_id": "018_S_4889",
+        "date": "28/02/2013",
+        "image_id": "I361591"
+    },
+    "609": {
+        "filename": "dswau018_S_4349_20120410_Resting_State_fMRI_76_I296891.nii",
+        "subject_id": "018_S_4349",
+        "date": "10/04/2012",
+        "image_id": "I296891"
+    },
+    "610": {
+        "filename": "dswau018_S_4313_20131212_Resting_State_fMRI_60_I401398.nii",
+        "subject_id": "018_S_4313",
+        "date": "12/12/2013",
+        "image_id": "I401398"
+    },
+    "611": {
+        "filename": "dswau018_S_4868_20121114_Resting_State_fMRI_85_I346592.nii",
+        "subject_id": "018_S_4868",
+        "date": "14/11/2012",
+        "image_id": "I346592"
+    },
+    "612": {
+        "filename": "dswau018_S_4597_20130311_Resting_State_fMRI_70_I362541.nii",
+        "subject_id": "018_S_4597",
+        "date": "11/03/2013",
+        "image_id": "I362541"
+    },
+    "613": {
+        "filename": "dswau018_S_5074_20130215_Resting_State_fMRI_66_I360317.nii",
+        "subject_id": "018_S_5074",
+        "date": "15/02/2013",
+        "image_id": "I360317"
+    },
+    "614": {
+        "filename": "dswau018_S_4809_20121005_Resting_State_fMRI_100_I338289.nii",
+        "subject_id": "018_S_4809",
+        "date": "05/10/2012",
+        "image_id": "I338289"
+    },
+    "615": {
+        "filename": "dswau018_S_4313_20120412_Resting_State_fMRI_70_I297183.nii",
+        "subject_id": "018_S_4313",
+        "date": "12/04/2012",
+        "image_id": "I297183"
+    },
+    "616": {
+        "filename": "dswau018_S_4733_20120523_Resting_State_fMRI_100_I306073.nii",
+        "subject_id": "018_S_4733",
+        "date": "23/05/2012",
+        "image_id": "I306073"
+    },
+    "617": {
+        "filename": "dswau018_S_4597_20120314_Resting_State_fMRI_59_I290305.nii",
+        "subject_id": "018_S_4597",
+        "date": "14/03/2012",
+        "image_id": "I290305"
+    },
+    "618": {
+        "filename": "dswau018_S_4696_20121101_Resting_State_fMRI_61_I343571.nii",
+        "subject_id": "018_S_4696",
+        "date": "01/11/2012",
+        "image_id": "I343571"
+    },
+    "619": {
+        "filename": "dswau018_S_5240_20130723_Resting_State_fMRI_100_I382187.nii",
+        "subject_id": "018_S_5240",
+        "date": "23/07/2013",
+        "image_id": "I382187"
+    },
+    "620": {
+        "filename": "dswau018_S_4400_20120409_Resting_State_fMRI_80_I296638.nii",
+        "subject_id": "018_S_4400",
+        "date": "09/04/2012",
+        "image_id": "I296638"
+    },
+    "621": {
+        "filename": "dswau018_S_4349_20121128_Resting_State_fMRI_60_I348166.nii",
+        "subject_id": "018_S_4349",
+        "date": "28/11/2012",
+        "image_id": "I348166"
+    },
+    "622": {
+        "filename": "dswau018_S_4696_20120501_Resting_State_fMRI_80_I301395.nii",
+        "subject_id": "018_S_4696",
+        "date": "01/05/2012",
+        "image_id": "I301395"
+    },
+    "623": {
+        "filename": "dswau018_S_4257_20120731_Resting_State_fMRI_100_I320519.nii",
+        "subject_id": "018_S_4257",
+        "date": "31/07/2012",
+        "image_id": "I320519"
+    },
+    "624": {
+        "filename": "dswau018_S_4399_20130111_Resting_State_fMRI_60_I354839.nii",
+        "subject_id": "018_S_4399",
+        "date": "11/01/2013",
+        "image_id": "I354839"
+    },
+    "625": {
+        "filename": "dswau018_S_4809_20130625_Resting_State_fMRI_90_I378012.nii",
+        "subject_id": "018_S_4809",
+        "date": "25/06/2013",
+        "image_id": "I378012"
+    },
+    "626": {
+        "filename": "dswau018_S_4868_20130211_Resting_State_fMRI_89_I358601.nii",
+        "subject_id": "018_S_4868",
+        "date": "11/02/2013",
+        "image_id": "I358601"
+    },
+    "627": {
+        "filename": "dswau018_S_4809_20120622_Resting_State_fMRI_100_I311906.nii",
+        "subject_id": "018_S_4809",
+        "date": "22/06/2012",
+        "image_id": "I311906"
+    },
+    "628": {
+        "filename": "dswau018_S_2180_20110310_Resting_State_fMRI_69_I223649.nii",
+        "subject_id": "018_S_2180",
+        "date": "10/03/2011",
+        "image_id": "I223649"
+    },
+    "629": {
+        "filename": "dswau018_S_4313_20111128_Resting_State_fMRI_44_I268925.nii",
+        "subject_id": "018_S_4313",
+        "date": "28/11/2011",
+        "image_id": "I268925"
+    },
+    "630": {
+        "filename": "dswau018_S_4399_20120829_Resting_State_fMRI_60_I327813.nii",
+        "subject_id": "018_S_4399",
+        "date": "29/08/2012",
+        "image_id": "I327813"
+    },
+    "631": {
+        "filename": "dswau018_S_4349_20131126_Resting_State_fMRI_80_I399633.nii",
+        "subject_id": "018_S_4349",
+        "date": "26/11/2013",
+        "image_id": "I399633"
+    },
+    "632": {
+        "filename": "dswau018_S_4733_20121130_Resting_State_fMRI_100_I348646.nii",
+        "subject_id": "018_S_4733",
+        "date": "30/11/2012",
+        "image_id": "I348646"
+    },
+    "633": {
+        "filename": "dswau018_S_4400_20130102_Resting_State_fMRI_68_I353130.nii",
+        "subject_id": "018_S_4400",
+        "date": "02/01/2013",
+        "image_id": "I353130"
+    },
+    "634": {
+        "filename": "dswau018_S_4400_20111220_Resting_State_fMRI_66_I273503.nii",
+        "subject_id": "018_S_4400",
+        "date": "20/12/2011",
+        "image_id": "I273503"
+    },
+    "635": {
+        "filename": "dswau018_S_4733_20120829_Resting_State_fMRI_105_I327941.nii",
+        "subject_id": "018_S_4733",
+        "date": "29/08/2012",
+        "image_id": "I327941"
+    },
+    "636": {
+        "filename": "dswau018_S_4257_20120409_Resting_State_fMRI_70_I296612.nii",
+        "subject_id": "018_S_4257",
+        "date": "09/04/2012",
+        "image_id": "I296612"
+    },
+    "637": {
+        "filename": "dswau018_S_4597_20120807_Resting_State_fMRI_70_I321928.nii",
+        "subject_id": "018_S_4597",
+        "date": "07/08/2012",
+        "image_id": "I321928"
+    },
+    "638": {
+        "filename": "dswau018_S_4868_20130822_Resting_State_fMRI_87_I386888.nii",
+        "subject_id": "018_S_4868",
+        "date": "22/08/2013",
+        "image_id": "I386888"
+    },
+    "639": {
+        "filename": "dswau018_S_4313_20121128_Resting_State_fMRI_60_I348187.nii",
+        "subject_id": "018_S_4313",
+        "date": "28/11/2012",
+        "image_id": "I348187"
+    },
+    "640": {
+        "filename": "dswau018_S_2180_20110726_Resting_State_fMRI_70_I247852.nii",
+        "subject_id": "018_S_2180",
+        "date": "26/07/2011",
+        "image_id": "I247852"
+    },
+    "641": {
+        "filename": "dswau018_S_4889_20121114_Resting_State_fMRI_85_I346564.nii",
+        "subject_id": "018_S_4889",
+        "date": "14/11/2012",
+        "image_id": "I346564"
+    },
+    "642": {
+        "filename": "dswau018_S_2180_20130102_Resting_State_fMRI_69_I353098.nii",
+        "subject_id": "018_S_2180",
+        "date": "02/01/2013",
+        "image_id": "I353098"
+    },
+    "643": {
+        "filename": "dswau018_S_2180_20140107_Resting_State_fMRI_85_I404042.nii",
+        "subject_id": "018_S_2180",
+        "date": "07/01/2014",
+        "image_id": "I404042"
+    },
+    "644": {
+        "filename": "dswau018_S_4400_20140128_Resting_State_fMRI_85_I409002.nii",
+        "subject_id": "018_S_4400",
+        "date": "28/01/2014",
+        "image_id": "I409002"
+    },
+    "645": {
+        "filename": "dswau018_S_4868_20120727_Resting_State_fMRI_70_I319541.nii",
+        "subject_id": "018_S_4868",
+        "date": "27/07/2012",
+        "image_id": "I319541"
+    },
+    "646": {
+        "filename": "dswau018_S_4399_20140106_Resting_State_fMRI_60_I403913.nii",
+        "subject_id": "018_S_4399",
+        "date": "06/01/2014",
+        "image_id": "I403913"
+    },
+    "647": {
+        "filename": "dswau006_S_4960_20130507_Resting_State_fMRI_113_I371407.nii",
+        "subject_id": "006_S_4960",
+        "date": "07/05/2013",
+        "image_id": "I371407"
+    },
+    "648": {
+        "filename": "dswau006_S_4960_20130110_Resting_State_fMRI_110_I354587.nii",
+        "subject_id": "006_S_4960",
+        "date": "10/01/2013",
+        "image_id": "I354587"
+    },
+    "649": {
+        "filename": "dswau006_S_4485_20120511_Resting_State_fMRI_98_I303081.nii",
+        "subject_id": "006_S_4485",
+        "date": "11/05/2012",
+        "image_id": "I303081"
+    },
+    "650": {
+        "filename": "dswau006_S_4713_20120813_Resting_State_fMRI_83_I323324.nii",
+        "subject_id": "006_S_4713",
+        "date": "13/08/2012",
+        "image_id": "I323324"
+    },
+    "651": {
+        "filename": "dswau006_S_4449_20120730_Resting_State_fMRI_77_I319634.nii",
+        "subject_id": "006_S_4449",
+        "date": "30/07/2012",
+        "image_id": "I319634"
+    },
+    "652": {
+        "filename": "dswau006_S_4713_20121128_Resting_State_fMRI_83_I348396.nii",
+        "subject_id": "006_S_4713",
+        "date": "28/11/2012",
+        "image_id": "I348396"
+    },
+    "653": {
+        "filename": "dswau006_S_4363_20121214_Resting_State_fMRI_100_I351592.nii",
+        "subject_id": "006_S_4363",
+        "date": "14/12/2012",
+        "image_id": "I351592"
+    },
+    "654": {
+        "filename": "dswau012_S_4012_20110720_Resting_State_fMRI_75_I246032.nii",
+        "subject_id": "012_S_4012",
+        "date": "20/07/2011",
+        "image_id": "I246032"
+    },
+    "655": {
+        "filename": "dswau006_S_4485_20130226_Resting_State_fMRI_93_I361294.nii",
+        "subject_id": "006_S_4485",
+        "date": "26/02/2013",
+        "image_id": "I361294"
+    },
+    "656": {
+        "filename": "dswau010_S_4135_20110727_Resting_State_fMRI_80_I247209.nii",
+        "subject_id": "010_S_4135",
+        "date": "27/07/2011",
+        "image_id": "I247209"
+    },
+    "657": {
+        "filename": "dswau006_S_4679_20120914_Resting_State_fMRI_78_I334236.nii",
+        "subject_id": "006_S_4679",
+        "date": "14/09/2012",
+        "image_id": "I334236"
+    },
+    "658": {
+        "filename": "dswau010_S_4345_20120611_Resting_State_fMRI_80_I310441.nii",
+        "subject_id": "010_S_4345",
+        "date": "11/06/2012",
+        "image_id": "I310441"
+    },
+    "659": {
+        "filename": "dswau006_S_4449_20130312_Resting_State_fMRI_68_I362889.nii",
+        "subject_id": "006_S_4449",
+        "date": "12/03/2013",
+        "image_id": "I362889"
+    },
+    "660": {
+        "filename": "dswau006_S_4485_20120824_Resting_State_fMRI_97_I326298.nii",
+        "subject_id": "006_S_4485",
+        "date": "24/08/2012",
+        "image_id": "I326298"
+    },
+    "661": {
+        "filename": "dswau006_S_4867_20131014_Resting_State_fMRI_88_I394330.nii",
+        "subject_id": "006_S_4867",
+        "date": "14/10/2013",
+        "image_id": "I394330"
+    },
+    "662": {
+        "filename": "dswau006_S_4449_20120119_Resting_State_fMRI_77_I279472.nii",
+        "subject_id": "006_S_4449",
+        "date": "19/01/2012",
+        "image_id": "I279472"
+    },
+    "663": {
+        "filename": "dswau010_S_4345_20120124_Resting_State_fMRI_70_I282008.nii",
+        "subject_id": "010_S_4345",
+        "date": "24/01/2012",
+        "image_id": "I282008"
+    },
+    "664": {
+        "filename": "dswau010_S_4345_20130312_Resting_State_fMRI_80_I363620.nii",
+        "subject_id": "010_S_4345",
+        "date": "12/03/2013",
+        "image_id": "I363620"
+    },
+    "665": {
+        "filename": "dswau006_S_4449_20120419_Resting_State_fMRI_77_I298510.nii",
+        "subject_id": "006_S_4449",
+        "date": "19/04/2012",
+        "image_id": "I298510"
+    },
+    "666": {
+        "filename": "dswau010_S_4345_20120920_Resting_State_fMRI_80_I337404.nii",
+        "subject_id": "010_S_4345",
+        "date": "20/09/2012",
+        "image_id": "I337404"
+    },
+    "667": {
+        "filename": "dswau006_S_4679_20130718_Resting_State_fMRI_81_I381403.nii",
+        "subject_id": "006_S_4679",
+        "date": "18/07/2013",
+        "image_id": "I381403"
+    },
+    "668": {
+        "filename": "dswau006_S_4515_20120917_Resting_State_fMRI_91_I334605.nii",
+        "subject_id": "006_S_4515",
+        "date": "17/09/2012",
+        "image_id": "I334605"
+    },
+    "669": {
+        "filename": "dswau006_S_5153_20130422_Resting_State_fMRI_92_I368159.nii",
+        "subject_id": "006_S_5153",
+        "date": "22/04/2013",
+        "image_id": "I368159"
+    },
+    "670": {
+        "filename": "dswau010_S_4442_20130510_Resting_State_fMRI_80_I373523.nii",
+        "subject_id": "010_S_4442",
+        "date": "10/05/2013",
+        "image_id": "I373523"
+    },
+    "671": {
+        "filename": "dswau006_S_4679_20121207_Resting_State_fMRI_74_I350113.nii",
+        "subject_id": "006_S_4679",
+        "date": "07/12/2012",
+        "image_id": "I350113"
+    },
+    "672": {
+        "filename": "dswau006_S_4485_20120201_Resting_State_fMRI_103_I281881.nii",
+        "subject_id": "006_S_4485",
+        "date": "01/02/2012",
+        "image_id": "I281881"
+    },
+    "673": {
+        "filename": "dswau012_S_4849_20130225_Resting_State_fMRI_59_I361973.nii",
+        "subject_id": "012_S_4849",
+        "date": "25/02/2013",
+        "image_id": "I361973"
+    },
+    "674": {
+        "filename": "dswau012_S_4849_20121105_Resting_State_fMRI_57_I376489.nii",
+        "subject_id": "012_S_4849",
+        "date": "05/11/2012",
+        "image_id": "I376489"
+    },
+    "675": {
+        "filename": "dswau006_S_4546_20120618_Resting_State_fMRI_90_I310925.nii",
+        "subject_id": "006_S_4546",
+        "date": "18/06/2012",
+        "image_id": "I310925"
+    },
+    "676": {
+        "filename": "dswau006_S_4713_20130612_Resting_State_fMRI_81_I376286.nii",
+        "subject_id": "006_S_4713",
+        "date": "12/06/2013",
+        "image_id": "I376286"
+    },
+    "677": {
+        "filename": "dswau006_S_4546_20120305_Resting_State_fMRI_93_I287992.nii",
+        "subject_id": "006_S_4546",
+        "date": "05/03/2012",
+        "image_id": "I287992"
+    },
+    "678": {
+        "filename": "dswau006_S_4960_20121009_Resting_State_fMRI_112_I339129.nii",
+        "subject_id": "006_S_4960",
+        "date": "09/10/2012",
+        "image_id": "I339129"
+    },
+    "679": {
+        "filename": "dswau006_S_4515_20120207_Resting_State_fMRI_92_I283267.nii",
+        "subject_id": "006_S_4515",
+        "date": "07/02/2012",
+        "image_id": "I283267"
+    },
+    "680": {
+        "filename": "dswau006_S_4515_20120511_Resting_State_fMRI_95_I303143.nii",
+        "subject_id": "006_S_4515",
+        "date": "11/05/2012",
+        "image_id": "I303143"
+    },
+    "681": {
+        "filename": "dswau006_S_4867_20120807_Resting_State_fMRI_86_I322009.nii",
+        "subject_id": "006_S_4867",
+        "date": "07/08/2012",
+        "image_id": "I322009"
+    },
+    "682": {
+        "filename": "dswau006_S_4867_20130304_Resting_State_fMRI_81_I362021.nii",
+        "subject_id": "006_S_4867",
+        "date": "04/03/2013",
+        "image_id": "I362021"
+    },
+    "683": {
+        "filename": "dswau006_S_4515_20130314_Resting_State_fMRI_92_I363293.nii",
+        "subject_id": "006_S_4515",
+        "date": "14/03/2013",
+        "image_id": "I363293"
+    },
+    "684": {
+        "filename": "dswau006_S_4546_20120924_Resting_State_fMRI_90_I336552.nii",
+        "subject_id": "006_S_4546",
+        "date": "24/09/2012",
+        "image_id": "I336552"
+    },
+    "685": {
+        "filename": "dswau006_S_4363_20140110_Resting_State_fMRI_77_I404475.nii",
+        "subject_id": "006_S_4363",
+        "date": "10/01/2014",
+        "image_id": "I404475"
+    },
+    "686": {
+        "filename": "dswau010_S_4442_20121203_Resting_State_fMRI_65_I350450.nii",
+        "subject_id": "010_S_4442",
+        "date": "03/12/2012",
+        "image_id": "I350450"
+    },
+    "687": {
+        "filename": "dswau006_S_4713_20120514_Resting_State_fMRI_81_I303731.nii",
+        "subject_id": "006_S_4713",
+        "date": "14/05/2012",
+        "image_id": "I303731"
+    },
+    "688": {
+        "filename": "dswau006_S_4867_20121113_Resting_State_fMRI_83_I346367.nii",
+        "subject_id": "006_S_4867",
+        "date": "13/11/2012",
+        "image_id": "I346367"
+    },
+    "689": {
+        "filename": "dswau006_S_4960_20131106_Resting_State_fMRI_105_I397506.nii",
+        "subject_id": "006_S_4960",
+        "date": "06/11/2013",
+        "image_id": "I397506"
+    },
+    "690": {
+        "filename": "dswau006_S_4363_20120619_Resting_State_fMRI_58_I311356.nii",
+        "subject_id": "006_S_4363",
+        "date": "19/06/2012",
+        "image_id": "I311356"
+    },
+    "691": {
+        "filename": "dswau012_S_4849_20130826_Resting_State_fMRI_59_I388039.nii",
+        "subject_id": "012_S_4849",
+        "date": "26/08/2013",
+        "image_id": "I388039"
+    },
+    "692": {
+        "filename": "dswau006_S_4679_20120601_Resting_State_fMRI_77_I307553.nii",
+        "subject_id": "006_S_4679",
+        "date": "01/06/2012",
+        "image_id": "I307553"
+    },
+    "693": {
+        "filename": "dswau006_S_5153_20130802_Resting_State_fMRI_90_I384312.nii",
+        "subject_id": "006_S_5153",
+        "date": "02/08/2013",
+        "image_id": "I384312"
+    },
+    "694": {
+        "filename": "dswau010_S_4442_20120207_Resting_State_fMRI_70_I283913.nii",
+        "subject_id": "010_S_4442",
+        "date": "07/02/2012",
+        "image_id": "I283913"
+    },
+    "695": {
+        "filename": "dswau012_S_4545_20120924_Resting_State_fMRI_59_I336708.nii",
+        "subject_id": "012_S_4545",
+        "date": "24/09/2012",
+        "image_id": "I336708"
+    }
+}

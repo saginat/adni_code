@@ -1,0 +1,91 @@
+/var/spool/slurmd/job43178493/slurm_script: line 12: module: command not found
+Open a new terminal window in Mac and Linux or a local terminal in Mobaxterm
+
+Copy and paste the command bellow in new terminal to create a tunnel to the cluster
+
+ssh -J sagi.nathan@bava.cs.huji.ac.il -L 19753:132.65.180.17:19753 sagi.nathan@moriah-gw.cs.huji.ac.il
+
+After creating the tunnel copy and paste the URL that Jupyter Notebook created in a local browser.
+
+[I 17:52:30.056 NotebookApp] Serving notebooks from local directory: /sci/nosnap/arieljaffe/sagi.nathan/adni_code
+[I 17:52:30.056 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 17:52:30.056 NotebookApp] http://glacier-07:19753/?token=f29162af3fe23fbe108d4d466cc3b29707f9365ce2a6cc2b
+[I 17:52:30.056 NotebookApp]  or http://127.0.0.1:19753/?token=f29162af3fe23fbe108d4d466cc3b29707f9365ce2a6cc2b
+[I 17:52:30.056 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:52:30.070 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///sci/home/sagi.nathan/.local/share/jupyter/runtime/nbserver-3209469-open.html
+    Or copy and paste one of these URLs:
+        http://glacier-07:19753/?token=f29162af3fe23fbe108d4d466cc3b29707f9365ce2a6cc2b
+     or http://127.0.0.1:19753/?token=f29162af3fe23fbe108d4d466cc3b29707f9365ce2a6cc2b
+[I 17:53:46.818 NotebookApp] 302 GET /?token=f29162af3fe23fbe108d4d466cc3b29707f9365ce2a6cc2b (132.65.180.49) 0.610000ms
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 17:54:07.393 NotebookApp] Notebook swift_pipeline/scripts/validate_adni_pipeline.ipynb is not trusted
+[I 17:54:07.823 NotebookApp] Kernel started: 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7, name: python3
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 17:54:12.416 NotebookApp] Saving file at /swift_pipeline/scripts/validate_adni_pipeline.ipynb
+[W 17:54:12.540 NotebookApp] Trusting notebook /swift_pipeline/scripts/validate_adni_pipeline.ipynb
+[I 17:54:12.612 NotebookApp] Starting buffering for 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7:2c795fae806f4d998b4cdf1f4d3d2af4
+[I 17:54:14.440 NotebookApp] Restoring connection for 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7:2c795fae806f4d998b4cdf1f4d3d2af4
+[I 17:54:14.518 NotebookApp] Starting buffering for 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7:2c795fae806f4d998b4cdf1f4d3d2af4
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 17:58:17.009 NotebookApp] Starting buffering for 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7:b00c3a2ba7a241ffa983ec29a77424a8
+[I 17:58:19.321 NotebookApp] Restoring connection for 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7:b00c3a2ba7a241ffa983ec29a77424a8
+[I 17:58:19.416 NotebookApp] Starting buffering for 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7:b00c3a2ba7a241ffa983ec29a77424a8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 17:58:27.182 NotebookApp] Starting buffering for 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7:aff02a0e24fb439d82d22645626c77b4
+[I 17:58:27.219 NotebookApp] Kernel shutdown: 9569bb99-7c49-44a3-a43f-b1a1e6bbb9e7
+[I 17:58:27.564 NotebookApp] Kernel started: 6b3f69b6-af92-4c86-98ea-42f729be4a2c, name: myenv
+[I 17:58:43.044 NotebookApp] Kernel shutdown: 6b3f69b6-af92-4c86-98ea-42f729be4a2c
+Traceback (most recent call last):
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 21, in <module>
+    from IPython.core.application import (  # type:ignore[attr-defined]
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/site-packages/IPython/__init__.py", line 53, in <module>
+    from .terminal.embed import embed
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/site-packages/IPython/terminal/embed.py", line 15, in <module>
+    from IPython.core.interactiveshell import DummyMod, InteractiveShell
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 73, in <module>
+    from IPython.core.history import HistoryManager
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/site-packages/IPython/core/history.py", line 11, in <module>
+    import sqlite3
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/sqlite3/__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "/sci/labs/arieljaffe/sagi.nathan/.conda/envs/pipeline/lib/python3.8/sqlite3/dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+KeyboardInterrupt
+[W 17:58:48.751 NotebookApp] Replacing stale connection: 6b3f69b6-af92-4c86-98ea-42f729be4a2c:aff02a0e24fb439d82d22645626c77b4
+[W 17:58:49.513 NotebookApp] 404 DELETE /api/sessions/39b94911-91f3-463a-b80e-c23fbe002c85 (132.65.180.49): Session not found: session_id='39b94911-91f3-463a-b80e-c23fbe002c85'
+[W 17:58:49.514 NotebookApp] Session not found: session_id='39b94911-91f3-463a-b80e-c23fbe002c85'
+[W 17:58:49.514 NotebookApp] 404 DELETE /api/sessions/39b94911-91f3-463a-b80e-c23fbe002c85 (132.65.180.49) 1.390000ms referer=http://127.0.0.1:19753/notebooks/swift_pipeline/scripts/validate_adni_pipeline.ipynb
+[W 17:58:54.578 NotebookApp] 404 DELETE /api/sessions/39b94911-91f3-463a-b80e-c23fbe002c85 (132.65.180.49): Session not found: session_id='39b94911-91f3-463a-b80e-c23fbe002c85'
+[W 17:58:54.578 NotebookApp] Session not found: session_id='39b94911-91f3-463a-b80e-c23fbe002c85'
+[W 17:58:54.579 NotebookApp] 404 DELETE /api/sessions/39b94911-91f3-463a-b80e-c23fbe002c85 (132.65.180.49) 1.310000ms referer=http://127.0.0.1:19753/notebooks/swift_pipeline/scripts/validate_adni_pipeline.ipynb
+[I 17:59:04.772 NotebookApp] Kernel started: 32d00c2f-28b9-4878-b94b-9de601796817, name: python3
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 17:59:08.934 NotebookApp] Starting buffering for 32d00c2f-28b9-4878-b94b-9de601796817:a0430bcdbceb4f1a87462a2c01bf0292
+[I 17:59:13.082 NotebookApp] Shutting down on /api/shutdown request.
+[I 17:59:13.086 NotebookApp] Shutting down 1 kernel
+[I 17:59:13.088 NotebookApp] Kernel shutdown: 32d00c2f-28b9-4878-b94b-9de601796817
+[I 17:59:13.305 NotebookApp] Shutting down 0 terminals
