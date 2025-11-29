@@ -243,7 +243,7 @@ class TransformerAutoEncoder(nn.Module):
         if hasattr(self, "num_cls_tokens") and self.num_cls_tokens > 0:
             cls_tokens = self.cls_tokens.expand(B, -1, -1)
             if hasattr(self, "cls_pos_embed"):
-                cls_tokens += self.cls_pos_embed.expand(B, -1, -1)
+                cls_tokens = cls_tokens + self.cls_pos_embed.expand(B, -1, -1)
             print(
                 f"Adding {self.num_cls_tokens} cls tokens"
             ) if self.first_pass else None
@@ -297,22 +297,28 @@ class TransformerAutoEncoder(nn.Module):
 
     def encode(self, x):
         # Reshape to patches
+        print(x.shape) if self.first_pass else None
         patches, (pad_h, pad_w, pad_d), (H, W, D, T) = self.patchify(x)
         # Embed patches with 2D positional embeddings
+        print(patches.shape) if self.first_pass else None
+
         tokens = self.patch_embedding(patches)
+        print(tokens.shape) if self.first_pass else None
         # Transformer Encoding
         encoded = self.encoder(tokens)
-
+        print(encoded.shape) if self.first_pass else None
         cls_tokens_encoded, other_tokens_encoded = self.spatial_temporal_reduction(
             encoded
         )
+
 
         return cls_tokens_encoded, other_tokens_encoded
 
     def forward(self, x, custom_recon=None):
         cls_tokens, other_tokens = self.encode(x)
+        print(other_tokens.shape) if self.first_pass else None
         decoded = self.custom_recon_decoder(other_tokens)
-
+        print(decoded.shape) if self.first_pass else None
         task_predictions = {}
         task_predictions["Reconstruction"] = decoded
         self.first_pass = False

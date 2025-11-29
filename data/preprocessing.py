@@ -108,9 +108,9 @@ def load_and_process_data(config):
     with open(f"{config.BASE_DATA_PATH}/imageID_to_labels.json", "r") as f:
         imageID_to_labels = json.load(f)
 
-    all_data_4d = torch.load(f"{config.BASE_DATA_PATH}/data/all_4d_downsampled.pt")
+    all_data_4d = torch.load(f"{config.BASE_DATA_PATH}/all_4d_downsampled.pt")
     schaefer_atlas = torch.load(
-        f"{config.BASE_DATA_PATH}/data/time_regions_tensor_not_normalized_schaefer.pt"
+        f"{config.BASE_DATA_PATH}/time_regions_tensor_not_normalized_schaefer.pt"
     )
     schaefer_atlas = schaefer_atlas.permute(0, 2, 1)  # samples, regions, time
 

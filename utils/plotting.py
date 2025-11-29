@@ -984,6 +984,11 @@ def plot_gradients(
 
     The first x-axis will represent training steps, and the second x-axis will represent epochs.
     """
+    # Handle empty gradients case
+    if len(gradients) == 0 or len(clipped_gradients) == 0:
+        print("Warning: No gradient data to plot. Skipping gradient plot.")
+        return
+    
     # Calculate the number of training steps
     training_steps = np.arange(len(gradients))
 
