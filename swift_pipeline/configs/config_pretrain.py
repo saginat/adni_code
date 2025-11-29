@@ -47,8 +47,8 @@ TRAIN_CONFIG = {
     "batch_size": 8,  # SwiFT default: 8
     "learning_rate": 5e-5,  # SwiFT default: 5e-5
     "weight_decay": 0.01,
-    "num_epochs": 100,
-    "warmup_epochs": 10,
+    "num_epochs": 5, # 300
+    "warmup_epochs": 2, # 10
     "temperature": 0.1,  # Common default for NTXentLoss
     "use_cosine_similarity": True,
 }
