@@ -2,9 +2,9 @@ from datetime import datetime
 import torch
 
 # --- Paths and Directories ---
-BASE_DATA_PATH = "/content/"
-BASE_RESULTS_PATH = "/results/"
-PRETRAINED_MODEL_DIR = "/tracker/pretraining_runs/"
+BASE_DATA_PATH = "/sci/nosnap/arieljaffe/sagi.nathan/shared_fmri_data/"
+BASE_RESULTS_PATH = "/sci/nosnap/arieljaffe/sagi.nathan/results/"
+PRETRAINED_MODEL_DIR = "/sci/nosnap/arieljaffe/sagi.nathan/tracker/pretraining_runs/"
 ATLAS = "schaefer200"
 
 # --- Data Settings ---
