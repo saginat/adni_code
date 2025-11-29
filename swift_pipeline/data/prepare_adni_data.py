@@ -6,9 +6,15 @@ Handles data loading, preprocessing, and dataset creation
 import torch
 import numpy as np
 import json
+import sys
+import os
 from typing import Tuple, Dict, List
 from torch.utils.data import DataLoader
 from pathlib import Path
+
+# Add path to access transforms from the parent adni_code/data directory
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data'))
+from transforms import Resize3D
 
 from .dataset_adni import (
     ADNISwiFTPretrainDataset,
@@ -98,9 +104,10 @@ def prepare_adni_datasets(
     val_split: float = 0.1,
     test_split: float = 0.2,
     seed: int = 42,
-    target_spatial_size: Tuple[int, int, int] = (96, 96, 96),
-    window_size: int = 20,
-    stride: int = 10,
+    target_spatial_size: Tuple[int, int, int] = (35, 37, 35),
+    scale_factor = None,
+    window_size: int = 10,
+    stride: int = 5,
     normalize: bool = True,
     handle_nan: str = "skip",
 ) -> Dict:
@@ -116,9 +123,10 @@ def prepare_adni_datasets(
         val_split: Validation split ratio
         test_split: Test split ratio
         seed: Random seed
-        target_spatial_size: Target spatial size after preprocessing
-        window_size: Temporal window size
-        stride: Temporal stride
+        target_spatial_size: Target spatial size after Resize3D transform
+        scale_factor: Scale factor for Resize3D (default: 0.7 for 35x37x35)
+        window_size: Temporal window size (default: 10)
+        stride: Temporal stride (default: 5)
         normalize: Whether to normalize data
         handle_nan: How to handle NaN labels - 'skip', 'zero', or 'keep'
 
@@ -136,6 +144,22 @@ def prepare_adni_datasets(
 
     print(f"\nLoaded data shape: {data.shape}")
     print(f"Expected format: [N_scans, H, W, D, T]")
+
+    # Apply spatial resizing using Resize3D
+    if scale_factor is not None:
+        
+        print(f"\nApplying spatial resize with scale_factor={scale_factor}:")
+        resize_transform = Resize3D(scale_factor=scale_factor, align_corners=False)
+    
+        resized_scans = []
+        for i in range(data.shape[0]):
+            scan = data[i:i+1]  # [1, H, W, D, T]
+            resized_scan = resize_transform(scan)
+            resized_scans.append(resized_scan)
+        
+        data = torch.cat(resized_scans, dim=0)  # [N_scans, H_new, W_new, D_new, T]
+    print(f"  Resized data shape: {data.shape}")
+    print(f"  Target spatial size: {target_spatial_size}")
 
     # Create temporal windows from full scans
     print(f"\nCreating temporal windows:")

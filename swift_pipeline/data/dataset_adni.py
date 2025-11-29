@@ -104,20 +104,20 @@ class ADNISwiFTPretrainDataset(Dataset):
         self,
         data: torch.Tensor,
         index_to_info: Dict,
-        window_size: int = 20,
-        stride: int = 10,
+        window_size: int = 10,
+        stride: int = 5,
         metadata: Optional[Dict] = None,
-        target_spatial_size: Tuple[int, int, int] = (96, 96, 96),
+        target_spatial_size: Tuple[int, int, int] = (35, 37, 35),
         augmentation: Optional[Callable] = None,
     ):
         """
         Args:
             data: Preprocessed data [N, H, W, D, T] (already windowed)
             index_to_info: Dict mapping {idx: {'image_id': ..., 'window_index': ...}}
-            window_size: Size of temporal window
-            stride: Stride for temporal windows
+            window_size: Size of temporal window (default: 10)
+            stride: Stride for temporal windows (default: 5)
             metadata: Dict with 'background_value' for padding
-            target_spatial_size: Target size for padding (default: 96x96x96)
+            target_spatial_size: Target size for padding (default: 35x37x35)
             augmentation: Optional augmentation function
         """
         self.data = data
@@ -234,7 +234,7 @@ class ADNISwiFTFinetuneDataset(Dataset):
         imageID_to_labels: Dict,
         task_names: List[str],
         metadata: Optional[Dict] = None,
-        target_spatial_size: Tuple[int, int, int] = (96, 96, 96),
+        target_spatial_size: Tuple[int, int, int] = (35, 37, 35),
         augmentation: Optional[Callable] = None,
         handle_nan: str = "skip",  # 'skip', 'zero', or 'keep'
     ):
@@ -245,7 +245,7 @@ class ADNISwiFTFinetuneDataset(Dataset):
             imageID_to_labels: Dict mapping {image_id: {task: label, ...}}
             task_names: List of task names to use (e.g., ['degradation_binary_1year'])
             metadata: Dict with 'background_value' for padding
-            target_spatial_size: Target size for padding (default: 96x96x96)
+            target_spatial_size: Target size for padding (default: 35x37x35)
             augmentation: Optional augmentation function
             handle_nan: How to handle NaN labels - 'skip', 'zero', or 'keep'
         """

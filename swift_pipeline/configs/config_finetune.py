@@ -26,9 +26,10 @@ HEAD_CONFIG = {
 }
 
 # Training parameters (often use smaller lr and fewer epochs for fine-tuning)
+# SwiFT uses batch_size=8, learning_rate=5e-5 for training
 TRAIN_CONFIG = {
-    "batch_size": 8,  # Can use larger batch size without contrastive learning
-    "learning_rate": 1e-5,  # Lower learning rate for fine-tuning
+    "batch_size": 8,  # SwiFT default: 8
+    "learning_rate": 5e-5,  # SwiFT default: 5e-5
     "weight_decay": 0.01,
     "num_epochs": 50,
     "warmup_epochs": 5,
