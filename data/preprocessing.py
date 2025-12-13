@@ -98,8 +98,27 @@ class TimeWindowSplitter:
         return new_info_dict
 
 
-def load_and_process_data(config):
-    """Main function to load, preprocess, and split the data."""
+def load_and_process_data(config, atlas_name=None, default_final_run=True):
+    """Main function to load, preprocess, and split the data.
+    
+    Args:
+        config: Configuration object
+        atlas_name: Optional atlas name (e.g., 'schaefer100', 'schaefer200'). 
+                   If None, uses the old schaefer atlas file for backward compatibility.
+    """
+    import psutil
+    import gc
+    
+    def print_memory_usage(stage):
+        """Print current memory usage."""
+        process = psutil.Process()
+        mem_info = process.memory_info()
+        mem_gb = mem_info.rss / 1e9
+        available_gb = psutil.virtual_memory().available / 1e9
+        total_gb = psutil.virtual_memory().total / 1e9
+        print(f"[{stage}] RAM: {mem_gb:.2f}GB used | {available_gb:.2f}GB available | {total_gb:.2f}GB total")
+    
+    print_memory_usage("START")
 
     with open(f"{config.BASE_DATA_PATH}/index_to_name.json", "r") as f:
         index_to_info = json.load(f)
@@ -107,20 +126,36 @@ def load_and_process_data(config):
 
     with open(f"{config.BASE_DATA_PATH}/imageID_to_labels.json", "r") as f:
         imageID_to_labels = json.load(f)
+    
+    print_memory_usage("After loading JSON metadata")
 
     all_data_4d = torch.load(f"{config.BASE_DATA_PATH}/all_4d_downsampled.pt")
-    schaefer_atlas = torch.load(
-        f"{config.BASE_DATA_PATH}/time_regions_tensor_not_normalized_schaefer.pt"
-    )
-    schaefer_atlas = schaefer_atlas.permute(0, 2, 1)  # samples, regions, time
+    print_memory_usage(f"After loading 4D data - shape: {all_data_4d.shape}")
+    
+    # Load atlas based on atlas_name parameter
+    if atlas_name is not None:
+        atlas_path = f"{config.BASE_DATA_PATH}/atlas_{atlas_name}.pt"
+        schaefer_atlas = torch.load(atlas_path)
+        print(f"Loaded atlas: {atlas_name} from {atlas_path}")
+        print_memory_usage(f"After loading atlas - shape: {schaefer_atlas.shape}")
+    else:
+        # Backward compatibility: use old schaefer file
+        schaefer_atlas = torch.load(
+            f"{config.BASE_DATA_PATH}/time_regions_tensor_not_normalized_schaefer.pt"
+        )
+        schaefer_atlas = schaefer_atlas.permute(0, 2, 1)  # samples, regions, time
+        print_memory_usage(f"After loading legacy atlas - shape: {schaefer_atlas.shape}")
 
     std_data = np.std(all_data_4d.numpy(), axis=tuple(range(1, all_data_4d.data.ndim)))
     top_k_std_scans = np.argsort(std_data)[-config.REMOVE_TOP_K_STD :]
     mask_bad = np.isin(np.arange(all_data_4d.size(0)), top_k_std_scans)
 
     clean_indices = np.where(~mask_bad)[0]
+    print_memory_usage("After computing outliers")
+    
     all_data_4d = all_data_4d[clean_indices]
     schaefer_atlas = schaefer_atlas[clean_indices]
+    print_memory_usage(f"After filtering outliers - 4D: {all_data_4d.shape}, Atlas: {schaefer_atlas.shape}")
 
     index_to_info = {
         i: index_to_info[clean_idx] for i, clean_idx in enumerate(clean_indices)
@@ -129,62 +164,181 @@ def load_and_process_data(config):
     splitter = DataSplitter(
         all_data_4d, config.VAL_SPLIT, config.TEST_SPLIT, config.SEED
     )
-    train_indices, val_indices, test_indices = splitter.split_data()
+    if not default_final_run:
+        train_indices, val_indices, test_indices = splitter.split_data()
+        print_memory_usage("After splitting indices")
 
-    train_data, val_data, test_data = (
-        all_data_4d[train_indices],
-        all_data_4d[val_indices],
-        all_data_4d[test_indices],
-    )
-    regions_train, regions_val, regions_test = (
-        schaefer_atlas[train_indices],
-        schaefer_atlas[val_indices],
-        schaefer_atlas[test_indices],
-    )
+        # Create normalizers BEFORE splitting data (they need the full dataset)
+        region_normalize_4d = NormalizeByRegion(all_data_4d)
+        region_normalize_atlas = NormalizeByRegion(schaefer_atlas)
+        print_memory_usage("After creating normalizers")
 
-    index_to_info_tr = {i: index_to_info[idx] for i, idx in enumerate(train_indices)}
-    index_to_info_val = {i: index_to_info[idx] for i, idx in enumerate(val_indices)}
-    index_to_info_test = {i: index_to_info[idx] for i, idx in enumerate(test_indices)}
+        # Keep references to full data for return
+        full_4d = all_data_4d
+        full_atlas = schaefer_atlas
 
-    region_normalize_4d = NormalizeByRegion(all_data_4d)
-    region_normalize_atlas = NormalizeByRegion(schaefer_atlas)
+        train_data, val_data, test_data = (
+            all_data_4d[train_indices],
+            all_data_4d[val_indices],
+            all_data_4d[test_indices],
+        )
+        regions_train, regions_val, regions_test = (
+            schaefer_atlas[train_indices],
+            schaefer_atlas[val_indices],
+            schaefer_atlas[test_indices],
+        )
+        print_memory_usage("After splitting data into train/val/test")
 
-    # Apply windowing
-    original_time_len = train_data.shape[-1]
-    train_data = TimeWindowSplitter(train_data, config.WINDOW_SIZE).split()
-    val_data = TimeWindowSplitter(val_data, config.WINDOW_SIZE).split()
-    test_data = TimeWindowSplitter(test_data, config.WINDOW_SIZE).split()
-    regions_train = (
-        TimeWindowSplitter(regions_train.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
-        .split()
-        .squeeze()
-    )
-    regions_val = (
-        TimeWindowSplitter(regions_val.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
-        .split()
-        .squeeze()
-    )
-    regions_test = (
-        TimeWindowSplitter(regions_test.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
-        .split()
-        .squeeze()
-    )
+        # Create index mappings for each split
+        index_to_info_tr = {i: index_to_info[idx] for i, idx in enumerate(train_indices)}
+        index_to_info_val = {i: index_to_info[idx] for i, idx in enumerate(val_indices)}
+        index_to_info_test = {i: index_to_info[idx] for i, idx in enumerate(test_indices)}
 
-    index_to_info_tr = TimeWindowSplitter.update_info_dict(
-        index_to_info_tr, original_time_len, config.WINDOW_SIZE
-    )
-    index_to_info_val = TimeWindowSplitter.update_info_dict(
-        index_to_info_val, original_time_len, config.WINDOW_SIZE
-    )
-    index_to_info_test = TimeWindowSplitter.update_info_dict(
-        index_to_info_test, original_time_len, config.WINDOW_SIZE
-    )
+        # Apply windowing
+        print_memory_usage("Before windowing")
+        original_time_len = train_data.shape[-1]
+        train_data = TimeWindowSplitter(train_data, config.WINDOW_SIZE).split()
+        print_memory_usage(f"After windowing train_data - shape: {train_data.shape}")
+        
+        val_data = TimeWindowSplitter(val_data, config.WINDOW_SIZE).split()
+        print_memory_usage(f"After windowing val_data - shape: {val_data.shape}")
+        
+        test_data = TimeWindowSplitter(test_data, config.WINDOW_SIZE).split()
+        print_memory_usage(f"After windowing test_data - shape: {test_data.shape}")
+        
+        regions_train = (
+            TimeWindowSplitter(regions_train.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
+            .split()
+            .squeeze()
+        )
+        print_memory_usage(f"After windowing regions_train - shape: {regions_train.shape}")
+        
+        regions_val = (
+            TimeWindowSplitter(regions_val.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
+            .split()
+            .squeeze()
+        )
+        print_memory_usage(f"After windowing regions_val - shape: {regions_val.shape}")
+        
+        regions_test = (
+            TimeWindowSplitter(regions_test.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
+            .split()
+            .squeeze()
+        )
+        print_memory_usage(f"After windowing regions_test - shape: {regions_test.shape}")
 
-    return (
-        (train_data, regions_train, index_to_info_tr),
-        (val_data, regions_val, index_to_info_val),
-        (test_data, regions_test, index_to_info_test),
-        imageID_to_labels,
-        (all_data_4d, schaefer_atlas),
-        (region_normalize_4d, region_normalize_atlas)
-    )
+        index_to_info_tr = TimeWindowSplitter.update_info_dict(
+            index_to_info_tr, original_time_len, config.WINDOW_SIZE
+        )
+        index_to_info_val = TimeWindowSplitter.update_info_dict(
+            index_to_info_val, original_time_len, config.WINDOW_SIZE
+        )
+        index_to_info_test = TimeWindowSplitter.update_info_dict(
+            index_to_info_test, original_time_len, config.WINDOW_SIZE
+        )
+
+        print_memory_usage("Before returning")
+        gc.collect()
+        print_memory_usage("After garbage collection")
+
+        return (
+            (train_data, regions_train, index_to_info_tr),
+            (val_data, regions_val, index_to_info_val),
+            (test_data, regions_test, index_to_info_test),
+            imageID_to_labels,
+            (full_4d, full_atlas),
+            (region_normalize_4d, region_normalize_atlas)
+        )
+
+    else:
+        train_indices,val_indices, test_indices = splitter.split_data()
+        train_indices = np.concatenate([train_indices, val_indices])
+        print_memory_usage("After splitting indices")
+
+        # Create normalizers BEFORE splitting data (they need the full dataset)
+        region_normalize_4d = NormalizeByRegion(all_data_4d)
+        region_normalize_atlas = NormalizeByRegion(schaefer_atlas)
+        print_memory_usage("After creating normalizers")
+
+        # Keep references to full data for return
+        full_4d = all_data_4d
+        full_atlas = schaefer_atlas
+
+        train_data, val_data, test_data = (
+            all_data_4d[train_indices],
+            all_data_4d[test_indices],
+            all_data_4d[test_indices],
+        )
+        regions_train, regions_val, regions_test = (
+            schaefer_atlas[train_indices],
+            schaefer_atlas[test_indices],
+            schaefer_atlas[test_indices],
+        )
+        print_memory_usage("After splitting data into train/val/test")
+
+        # Create index mappings for each split
+        index_to_info_tr = {i: index_to_info[idx] for i, idx in enumerate(train_indices)}
+        index_to_info_val = {i: index_to_info[idx] for i, idx in enumerate(test_indices)}
+        index_to_info_test = {i: index_to_info[idx] for i, idx in enumerate(test_indices)}
+
+        # Apply windowing
+        print_memory_usage("Before windowing")
+        original_time_len = train_data.shape[-1]
+        train_data = TimeWindowSplitter(train_data, config.WINDOW_SIZE).split()
+        print_memory_usage(f"After windowing train_data - shape: {train_data.shape}")
+        
+        val_data = TimeWindowSplitter(val_data, config.WINDOW_SIZE).split()
+        print_memory_usage(f"After windowing val_data - shape: {val_data.shape}")
+        
+        test_data = TimeWindowSplitter(test_data, config.WINDOW_SIZE).split()
+        print_memory_usage(f"After windowing test_data - shape: {test_data.shape}")
+        
+        regions_train = (
+            TimeWindowSplitter(regions_train.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
+            .split()
+            .squeeze()
+        )
+        print_memory_usage(f"After windowing regions_train - shape: {regions_train.shape}")
+        
+        regions_val = (
+            TimeWindowSplitter(regions_val.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
+            .split()
+            .squeeze()
+        )
+        print_memory_usage(f"After windowing regions_val - shape: {regions_val.shape}")
+        
+        regions_test = (
+            TimeWindowSplitter(regions_test.unsqueeze(1).unsqueeze(1), config.WINDOW_SIZE)
+            .split()
+            .squeeze()
+        )
+        print_memory_usage(f"After windowing regions_test - shape: {regions_test.shape}")
+
+        index_to_info_tr = TimeWindowSplitter.update_info_dict(
+            index_to_info_tr, original_time_len, config.WINDOW_SIZE
+        )
+        index_to_info_val = TimeWindowSplitter.update_info_dict(
+            index_to_info_val, original_time_len, config.WINDOW_SIZE
+        )
+        index_to_info_test = TimeWindowSplitter.update_info_dict(
+            index_to_info_test, original_time_len, config.WINDOW_SIZE
+        )
+
+        print_memory_usage("Before returning")
+        gc.collect()
+        print_memory_usage("After garbage collection")
+
+        return (
+            (train_data, regions_train, index_to_info_tr),
+            (val_data, regions_val, index_to_info_val),
+            (test_data, regions_test, index_to_info_test),
+            imageID_to_labels,
+            (full_4d, full_atlas),
+            (region_normalize_4d, region_normalize_atlas)
+        )
+
+       
+
+    
+
+# Configuration for atlas pretraining experiment

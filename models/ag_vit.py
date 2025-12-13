@@ -82,6 +82,7 @@ class TransformerAutoEncoder(nn.Module):
         custom_decoder=None,
         merge_patches=10,
         use_patch_merger=True,
+        n_regions=True,
         first_pass=True,
     ):
         super().__init__()
@@ -151,7 +152,7 @@ class TransformerAutoEncoder(nn.Module):
         )
 
         self.custom_recon_decoder = AtlasDecoder(
-            input_dim=decoder_input_dim, output_dims=(200, self.time)
+            input_dim=decoder_input_dim, output_dims=(n_regions, self.time)
         )
 
     def create_2d_positional_embeddings(self, patches_shape):

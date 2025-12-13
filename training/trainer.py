@@ -5,6 +5,8 @@ import einops
 import numpy as np
 import torch
 from tqdm.auto import tqdm
+import os
+os.environ['MPLCONFIGDIR'] = '/sci/labs/arieljaffe/sagi.nathan/.matplotlib'
 
 from utils.metrics import print_metrics
 from utils.plotting import plot_grid_recon

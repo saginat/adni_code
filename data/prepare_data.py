@@ -7,12 +7,13 @@ from .preprocessing import load_and_process_data
 from .transforms import NormalizeByRegion, Resize3D
 
 
-def prepare_dataloaders(config, stage="pretrain"):
+def prepare_dataloaders(config, stage="pretrain", atlas_name=None):
     """
     Prepare dataloaders for different training stages with consistent preprocessing.
     Args:
         config: Configuration object containing all hyperparameters
         stage: One of "pretrain", "finetune", or "tta"
+        atlas_name: Optional atlas name (e.g., 'schaefer100', 'schaefer200') to use for reconstruction
     Returns:
         Dictionary containing dataloaders and other necessary components
     """
@@ -20,7 +21,7 @@ def prepare_dataloaders(config, stage="pretrain"):
 
     # Load raw data
     train_set, val_set, test_set, imageID_to_labels, (full_4d, full_atlas), (scan_norm, region_norm) = (
-        load_and_process_data(config)
+        load_and_process_data(config, atlas_name=atlas_name)
     )
     train_data, regions_train, index_to_info_tr = train_set
     val_data, regions_val, index_to_info_val = val_set
